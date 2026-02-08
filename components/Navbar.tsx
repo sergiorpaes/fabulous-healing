@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Sparkles, Globe } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Language } from '../utils/translations';
 
@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2 group">
-              <Sparkles className="w-8 h-8 text-spiritual-lavender group-hover:rotate-12 transition-transform duration-300" />
+              <img src="/logo.png" alt="Fabulous Healing" className="h-16 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
               <span className="text-2xl font-serif font-semibold tracking-tight text-deep-violet">
                 Fabulous <span className="text-gold">Healing</span>
               </span>

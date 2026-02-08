@@ -4,9 +4,9 @@
   --color-gold: #d4af37;
   --color-spiritual-lavender: #e9d5ff;
   --color-soft-violet: #a78bfa;
-  --color-deep-violet: #3b0764;
-  --color-rose-pink: #f9a8d4;
-  --color-healing-aqua: #ccfbf1;
+  --color-deep-violet: #7f009e;
+  --color-rose-pink: #d169ab;
+  --color-healing-aqua: #24a9b2;
   --color-ethereal-white: #fdfcfe;
 
   --color-purple-50: #faf5ff;
@@ -78,8 +78,8 @@
 /* Custom Base Styles */
 @layer base {
   :root {
-    --portal-gradient: linear-gradient(135deg, #e9d5ff 0%, #ccfbf1 50%, #f9a8d4 100%);
-    --button-gradient: linear-gradient(135deg, #a78bfa 0%, #f9a8d4 100%);
+    --portal-gradient: linear-gradient(135deg, #e9d5ff 0%, #24a9b2 50%, #d169ab 100%);
+    --button-gradient: linear-gradient(135deg, #a78bfa 0%, #d169ab 100%);
   }
 
   body {

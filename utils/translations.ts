@@ -9,20 +9,20 @@ export const translations = {
             products: 'Produtos',
             blog: 'Blog',
             community: 'Comunidade',
-            contact: 'Contato',
+            contact: 'Contacto',
             bookSession: 'Agendar Sessão',
         },
         home: {
             heroTagline: 'Portal Fabulous Healing',
-            heroTitle: 'Sente que algo te impede de',
+            heroTitle: 'Sente que algo o impede de',
             heroTitleHighlight: 'florescer?',
             heroSubtitleTitle: 'A terapia vibracional é a chave',
-            heroSubtitleText: 'Não espere a vida se tornar insuportável. Se você sente que precisa de mudança,',
+            heroSubtitleText: 'Não espere que a vida se torne insuportável. Se sente que precisa de mudança,',
             heroSubtitleHighlight: 'agora é o momento!',
             heroCtaPrimary: 'Iniciar Evolução',
-            heroCtaSecondary: 'Conheça Fabíola',
-            philosophyBadge: 'Acesse sua luz original',
-            philosophyTitle: 'Reconecte-se com sua',
+            heroCtaSecondary: 'Conheça a Fabíola',
+            philosophyBadge: 'Aceda à sua luz original',
+            philosophyTitle: 'Reconecte-se com a sua',
             philosophyTitleHighlight: 'frequência original',
             philosophyText: 'Utilizamos o',
             philosophyTextHighlight: 'Protocolo de Evolução com a Semente da Vida',
@@ -35,56 +35,65 @@ export const translations = {
             },
             featuredTagline: 'Protocolo Exclusivo',
             featuredTitle: 'Fortaleça os Laços Familiares',
-            featuredText: 'Conheça o protocolo de evolução para mães e filhos com a Semente da Vida. Uma jornada de cura sistêmica que utiliza a geometria sagrada para harmonizar relações e curar feridas ancestrais.',
+            featuredText: 'Conheça o protocolo de evolução para mães e filhos com a Semente da Vida. Uma jornada de cura sistémica que utiliza a geometria sagrada para harmonizar relações e curar feridas ancestrais.',
             featuredCta: 'Saiba como funciona',
         },
         about: {
             imageAlt: 'Fabíola - Fabulous Healing',
             name: 'Fabíola',
             role: 'Guardiã de Frequências',
-            badge: 'Nossa Guardiã',
+            badge: 'A Nossa Guardiã',
             title: 'Luz e',
             titleHighlight: 'Propósito',
-            bio1: 'Eu sou Fabíola, e minha missão é ser o canal para que você reencontre sua frequência mais elevada. A Fabulous Healing nasceu da necessidade de curar as raízes para que a alma possa finalmente florescer livre de amarras ancestrais.',
-            bio2: 'Através da minha própria jornada de despertar, aprendi que a verdadeira cura acontece quando alinhamos a biologia com a vibração universal. O uso de cristais mestres, a radiestesia e a geometria sagrada são apenas as chaves para o portal que já existe dentro de você.',
+            bio1: 'Eu sou Fabíola, e minha missão é ser o canal para que pessoas reencontrem e sustentam uma frequência mais elevada. Fabulous Healing nasceu da necessidade de contribuir na jornada da Nova Terra, curando feridas emocionais para que almas possam florescer livres no seu potencial máximo.',
+            bio2: 'Através da minha própria jornada de despertar, aprendi que a verdadeira cura acontece quando trabalhamos nosso interno para vibrar o que desejamos no externo. Meu trabalho como canal serve de chave para o portal que já existe dentro de ti.',
             stats: {
                 experience: { value: '15+', label: 'Anos de Prática' },
                 lives: { value: '10k+', label: 'Vidas Tocadas' },
             },
-            valuesTitle: 'Valores do Portal',
-            values: {
-                consciousness: { title: 'Consciência', text: 'O despertar para a verdade que reside além dos véus da matéria.' },
-                tuning: { title: 'Sintonização', text: 'Ajustar sua vibração para as oitavas superiores de amor e luz.' },
-                protection: { title: 'Proteção', text: 'Blindar seu campo energético contra frequências dissonantes.' },
-                unity: { title: 'Unidade', text: 'Reconhecer que somos todos parte da mesma Semente Divina.' },
+            journey: {
+                part1: 'A minha trajetória até aqui foi marcada por muitos desafios, profundas transformações e sucessivas camadas de libertação emocional, que me conduziram a um reencontro autêntico com o meu verdadeiro propósito mediúnico.',
+                part2: 'A minha formação de base é em Tradução e, ao longo de muitos anos, ajudei escritores e terapeutas a expandirem os seus dons para o mundo com traduções, levando o seu conhecimento e sabedoria a outras línguas e culturas. Curiosamente, enquanto apoiava outros a reconhecerem o seu valor, fui sendo chamada a reconhecer o meu próprio dom — um talento profundo que só se revelou plenamente após um intenso processo de cura interna e expansão de consciência.',
+                pillarsIntro: 'O meu trabalho terapêutico está fundamentado em três pilares essenciais:',
+                pillar1: '✨ Frequências Sonoras, que actuam directamente no subconsciente, promovendo desbloqueios internos e activando novas consciências no ser;',
+                pillar2: '✨ Geometrias Sagradas, canalizadas por mim e também integradas a partir de formações ao longo da minha trajetória, incluindo geometrias de origem arcturiana, siriana e angelical, que reorganizam padrões energéticos e activam códigos de luz;',
+                pillar3: '✨ Cristais, que auxiliam no reordenamento do campo electromagnético (aura) do ser tratado, trazendo alinhamento, estabilidade e expansão vibracional.',
+                part3: 'A energia do meu trabalho é única, pois está profundamente ancorada na minha egrégora de trabalho, construída ao longo de anos de ancoramento, entrega, canalização e serviço consciente. Actuo como canal para que cada pessoa possa conectar possibilidades mais elevadas, alinhadas com o seu momento único de vida e com aquilo que é verdadeiramente o melhor para a sua evolução, cura e bem-estar.',
+                part4: 'Cada sessão, atendimento, é um encontro sagrado, criado para apoiar o ser a recordar quem é, a libertar o que já não serve e a abrir espaço para novas realidades mais alinhadas com a sua essência.',
+            },
+            valuesTitle: 'Pilares do Trabalho',
+            pillars: {
+                sound: { title: 'Frequências Sonoras', text: 'As sessões são guiadas pela minha voz e/ou sons canalizados, ao longo de todo o processo, acompanhadas por frequências sonoras de fundo cuidadosamente escolhidas. A vibração conduz o ser a um estado profundo de entrega, permitindo conectar ao subconsciente, além do mental racional. Estas frequências agem sobre memórias celulares, padrões inconscientes e bloqueios energéticos, facilitando libertações emocionais e a activação de novas consciências. O som torna-se um portal vibracional, onde a cura acontece de forma natural, suave e profunda, alinhada com a essência e o momento único de cada ser.' },
+                geometry: { title: 'Geometrias Sagradas', text: 'As Geometrias Sagradas utilizadas no meu trabalho são canalizadas e activadas especificamente para cada sessão, em ressonância com o campo energético do ser. Integro geometrias provenientes de formações ao longo da minha trajetória, bem como geometrias de origem arcturiana, siriana e angelical canalizadas por mim, que servem como chaves vibracionais. Elas reorganizam padrões energéticos desarmónicos, restauram a ordem no campo e activam códigos de luz adormecidos, apoiando processos de expansão, alinhamento espiritual e reconexão com a sabedoria interna.' },
+                crystals: { title: 'Cristais', text: 'Os cristais são utilizados como aliados vibracionais, ampliadores dos códigos, trabalhando em sintonia com a energia da sessão. Cada cristal emite uma frequência específica que auxilia no reordenamento do campo electromagnético (aura), promovendo equilíbrio, conexão estelar e ao mesmo tempo aterramento. Eles apoiam na estabilização das mudanças vibracionais durante a sessão, facilitando a integração energética no corpos desdobrados do ser, sustentando um estado de maior harmonia e expansão vibracional.' },
             },
         },
         services: {
             tagline: 'Terapias Vibracionais',
             title: 'Caminhos para',
             titleHighlight: 'Cura e Ascensão',
-            subtitle: 'Cada sessão é um portal único, aberto especificamente para sua frequência e necessidade atual.',
+            subtitle: 'Cada sessão é um portal único, aberto especificamente para a sua frequência e necessidade atual.',
             offeringsStart: 'Protocolos',
             offeringsHighlight: 'Exclusivos',
             cta: 'Agendar Sessão',
             items: {
                 tableRadius: {
-                    title: 'Mesa Radiônica dos Tronos',
-                    description: 'Harmonização completa dos chakras e limpeza de corpos sutis através da egrégora dos Tronos de Deus.',
+                    title: 'Mesa Radiónica dos Tronos',
+                    description: 'Harmonização completa dos chakras e limpeza de corpos subtis através da egrégora dos Tronos de Deus.',
                     duration: '60 min',
-                    price: 'R$ 350',
+                    price: '€ 60',
                 },
                 seedOfLife: {
                     title: 'Protocolo Semente da Vida',
-                    description: 'Cura sistêmica para mães e filhos. Liberação de traumas gestacionais e fortalecimento do vínculo álmico.',
+                    description: 'Cura sistémica para mães e filhos. Liberação de traumas gestacionais e fortalecimento do vínculo álmico.',
                     duration: '90 min',
-                    price: 'R$ 530',
+                    price: '€ 90',
                 },
                 crystals: {
                     title: 'Leitura de Cristais',
                     description: 'Oráculo terapêutico com cristais mestres para orientação espiritual e desbloqueio de caminhos.',
                     duration: '45 min',
-                    price: 'R$ 260',
+                    price: '€ 45',
                 },
             },
         },
@@ -97,11 +106,11 @@ export const translations = {
             items: {
                 meditation: {
                     title: 'Meditação Guiada: Encontro com a Criança Interior',
-                    description: 'Uma jornada de 21 dias para curar feridas emocionais da infância e recuperar sua alegria de viver.',
+                    description: 'Uma jornada de 21 dias para curar feridas emocionais da infância e recuperar a sua alegria de viver.',
                 },
                 ebook: {
                     title: 'E-book: Cristais para Iniciantes',
-                    description: 'Guia prático para escolher, limpar e programar seus cristais. Aprenda a criar grades de proteção para sua casa.',
+                    description: 'Guia prático para escolher, limpar e programar os seus cristais. Aprenda a criar grelhas de proteção para a sua casa.',
                 },
                 audio: {
                     title: 'Áudio Binaural: Frequência do Amor (528Hz)',
@@ -111,16 +120,16 @@ export const translations = {
         },
         contact: {
             title: 'Entre em',
-            titleHighlight: 'Contato',
-            subtitle: 'Estamos aqui para ouvir você e guiar sua jornada.',
-            infoTitle: 'Nossos Canais',
+            titleHighlight: 'Contacto',
+            subtitle: 'Estamos aqui para o ouvir e guiar a sua jornada.',
+            infoTitle: 'Os Nossos Canais',
             address: {
                 title: 'Localização',
                 text: 'Rua da Luz, 123 - Lisboa, Portugal',
             },
             email: {
                 title: 'Email',
-                text: 'contato@fabuloushealing.com',
+                text: 'contacto@fabuloushealing.com',
             },
             phone: {
                 title: 'Telefone',
@@ -138,24 +147,24 @@ export const translations = {
             tagline: 'Sabedoria Ancestral',
             title: 'Diário de',
             titleHighlight: 'Ascensão',
-            subtitle: 'Artigos, canalizações e conhecimentos para nutrir sua expansão de consciência.',
+            subtitle: 'Artigos, canalizações e conhecimentos para nutrir a sua expansão de consciência.',
             readMore: 'Ler artigo completo',
             posts: {
                 post1: {
                     title: 'O Poder Oculto dos Cristais Mestres',
-                    excerpt: 'Descubra como os cristais mestres atuam como bibliotecas de luz, guardando registros akáshicos e chaves de ativação para o seu despertar espiritual.',
+                    excerpt: 'Descubra como os cristais mestres atuam como bibliotecas de luz, guardando registos akáshicos e chaves de ativação para o seu despertar espiritual.',
                     date: '12 de Março, 2024',
                     category: 'Cristaloterapia',
                 },
                 post2: {
-                    title: 'Sinais da Transição Planetária em Seu Corpo',
+                    title: 'Sinais da Transição Planetária no Seu Corpo',
                     excerpt: 'Cansaço inexplicável, zumbido no ouvido e sonhos vívidos? Entenda os sintomas físicos e energéticos da mudança de frequência da Terra.',
                     date: '08 de Março, 2024',
                     category: 'Ascensão',
                 },
                 post3: {
                     title: 'Geometria Sagrada: A Linguagem do Universo',
-                    excerpt: 'Como os padrões geométricos influenciam nossa realidade e como utilizar a Flor da Vida para harmonizar ambientes e chakras.',
+                    excerpt: 'Como os padrões geométricos influenciam a nossa realidade e como utilizar a Flor da Vida para harmonizar ambientes e chakras.',
                     date: '01 de Março, 2024',
                     category: 'Geometria Sagrada',
                 },
@@ -166,15 +175,15 @@ export const translations = {
             title: 'Círculo de',
             titleHighlight: 'Luz',
             subtitle: 'Uma rede de almas unidas pelo propósito de evoluir e servir.',
-            join: 'Participar do Círculo',
+            join: 'Participar no Círculo',
             items: {
                 telegram: {
                     title: 'Grupo no Telegram',
-                    description: 'Receba meditações diárias e insights exclusivos diretamente no seu celular.',
+                    description: 'Receba meditações diárias e insights exclusivos diretamente no seu telemóvel.',
                 },
                 events: {
                     title: 'Encontros Presenciais',
-                    description: 'Rituais de lua cheia e vivências em grupo em nosso espaço sagrado.',
+                    description: 'Rituais de lua cheia e vivências em grupo no nosso espaço sagrado.',
                 },
                 mentorship: {
                     title: 'Mentoria em Grupo',
@@ -190,13 +199,47 @@ export const translations = {
             products: 'Produtos Digitais',
             blog: 'Blog & Artigos',
             support: 'Suporte',
-            contact: 'Fale Conosco',
+            contact: 'Fale Connosco',
             privacy: 'Política de Privacidade',
-            terms: 'Termos de Uso',
+            terms: 'Termos de Utilização',
             community: 'Comunidade',
             connect: 'Conecte-se',
             rights: '© 2026 Fabulous Healing. Todos os direitos reservados.',
             developedBy: 'Desenvolvido com intenção e amor.',
+            legal: {
+                privacyTitle: 'Política de Privacidade',
+                privacyContent: `A sua privacidade é importante para nós. É política do Fabulous Healing respeitar a sua privacidade em relação a qualquer informação sua que possamos recolher no site Fabulous Healing, e outros sites que possuímos e operamos.
+
+Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos a recolher e como será usado.
+
+Apenas retemos as informações recolhidas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemo-los dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
+
+Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.
+
+O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controlo sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade pelas suas respectivas políticas de privacidade.
+
+Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.
+
+O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se tiver alguma dúvida sobre como lidamos com dados do utilizador e informações pessoais, entre em contacto connosco.`,
+                termsTitle: 'Termos de Utilização',
+                termsContent: `1. Termos
+Ao aceder ao site Fabulous Healing, concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se não concordar com algum destes termos, está proibido de usar ou aceder a este site. Os materiais contidos neste site são protegidos pelas leis de direitos de autor e marcas comerciais aplicáveis.
+
+2. Uso de Licença
+É concedida permissão para descarregar temporariamente uma cópia dos materiais (informações ou software) no site Fabulous Healing , apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode:
+
+- modificar ou copiar os materiais;
+- usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial);
+- tentar descompilar ou fazer engenharia reversa de qualquer software contido no site Fabulous Healing;
+- remover quaisquer direitos de autor ou outras notações de propriedade dos materiais; ou
+- transferir os materiais para outra pessoa ou 'espelhe' os materiais em qualquer outro servidor.
+
+Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por Fabulous Healing a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais descarregados em sua posse, seja em formato eletrónico ou impresso.
+
+3. Isenção de responsabilidade
+Os materiais no site da Fabulous Healing são fornecidos 'como estão'. Fabulous Healing não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.
+Além disso, o Fabulous Healing não garante ou faz qualquer representação relativa à precisão, aos resultados prováveis ou à confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a este site.`,
+            },
         },
     },
     es: {
@@ -249,12 +292,21 @@ export const translations = {
                 experience: { value: '15+', label: 'Años de Práctica' },
                 lives: { value: '10k+', label: 'Vidas Tocadas' },
             },
-            valuesTitle: 'Valores del Portal',
-            values: {
-                consciousness: { title: 'Conciencia', text: 'El despertar a la verdad que reside más allá de los velos de la materia.' },
-                tuning: { title: 'Sintonización', text: 'Ajustar tu vibración para las octavas superiores de amor y luz.' },
-                protection: { title: 'Protección', text: 'Blindar tu campo energético contra frecuencias disonantes.' },
-                unity: { title: 'Unidad', text: 'Reconocer que todos somos parte de la misma Semilla Divina.' },
+            journey: {
+                part1: 'A minha trajetória até aqui foi marcada por muitos desafios, profundas transformações e sucessivas camadas de libertação emocional, que me conduziram a um reencontro autêntico com o meu verdadeiro propósito mediúnico.',
+                part2: 'A minha formação de base é em Tradução e, ao longo de muitos anos, ajudei escritores e terapeutas a expandirem os seus dons para o mundo com traduções, levando o seu conhecimento e sabedoria a outras línguas e culturas. Curiosamente, enquanto apoiava outros a reconhecerem o seu valor, fui sendo chamada a reconhecer o meu próprio dom — um talento profundo que só se revelou plenamente após um intenso processo de cura interna e expansão de consciência.',
+                pillarsIntro: 'O meu trabalho terapêutico está fundamentado em três pilares essenciais:',
+                pillar1: '✨ Frequências Sonoras, que actuam directamente no subconsciente, promovendo desbloqueios internos e activando novas consciências no ser;',
+                pillar2: '✨ Geometrias Sagradas, canalizadas por mim e também integradas a partir de formações ao longo da minha trajetória, incluindo geometrias de origem arcturiana, siriana e angelical, que reorganizam padrões energéticos e activam códigos de luz;',
+                pillar3: '✨ Cristais, que auxiliam no reordenamento do campo electromagnético (aura) do ser tratado, trazendo alinhamento, estabilidade e expansão vibracional.',
+                part3: 'A energia do meu trabalho é única, pois está profundamente ancorada na minha egrégora de trabalho, construída ao longo de anos de ancoramento, entrega, canalização e serviço consciente. Actuo como canal para que cada pessoa possa conectar possibilidades mais elevadas, alinhadas com o seu momento único de vida e com aquilo que é verdadeiramente o melhor para a sua evolução, cura e bem-estar.',
+                part4: 'Cada sessão, atendimento, é um encontro sagrado, criado para apoiar o ser a recordar quem é, a libertar o que já não serve e a abrir espaço para novas realidades mais alinhadas com a sua essência.',
+            },
+            valuesTitle: 'Pilares de Trabajo',
+            pillars: {
+                sound: { title: 'Frecuencias Sonoras', text: 'Actúan directamente en el subconsciente, promoviendo desbloqueos internos y activando nuevas conciencias.' },
+                geometry: { title: 'Geometrías Sagradas', text: 'Canalizadas e integradas para reorganizar patrones energéticos y activar códigos de luz.' },
+                crystals: { title: 'Cristales', text: 'Ayudan en el reordenamiento del campo electromagnético, trayendo alineación y estabilidad.' },
             },
         },
         services: {
@@ -395,6 +447,40 @@ export const translations = {
             connect: 'Conéctate',
             rights: '© 2026 Fabulous Healing. Todos los derechos reservados.',
             developedBy: 'Desarrollado con intención y amor.',
+            legal: {
+                privacyTitle: 'Política de Privacidad',
+                privacyContent: `Su privacidad es importante para nosotros. Es política de Fabulous Healing respetar su privacidad con respecto a cualquier información que podamos recopilar de usted a través de nuestro sitio web, Fabulous Healing, y otros sitios que poseemos y operamos.
+
+Solo solicitamos información personal cuando realmente la necesitamos para brindarle un servicio. Lo hacemos por medios justos y legales, con su conocimiento y consentimiento. También le informamos por qué la recopilamos y cómo se utilizará.
+
+Solo conservamos la información recopilada durante el tiempo necesario para brindarle el servicio solicitado. Los datos que almacenamos, los protegeremos dentro de medios comercialmente aceptables para evitar pérdidas y robos, así como el acceso, divulgación, copia, uso o modificación no autorizados.
+
+No compartimos ninguna información de identificación personal públicamente o con terceros, excepto cuando lo exija la ley.
+
+Nuestro sitio web puede enlazar a sitios externos que no son operados por nosotros. Tenga en cuenta que no tenemos control sobre el contenido y las prácticas de estos sitios, y no podemos aceptar responsabilidad por sus respectivas políticas de privacidad.
+
+Usted es libre de rechazar nuestra solicitud de su información personal, entendiendo que es posible que no podamos brindarle algunos de los servicios deseados.
+
+El uso continuado de nuestro sitio web se considerará como aceptación de nuestras prácticas en torno a la privacidad y la información personal. Si tiene alguna pregunta sobre cómo manejamos los datos de los usuarios y la información personal, no dude en contactarnos.`,
+                termsTitle: 'Términos de Uso',
+                termsContent: `1. Términos
+Al acceder al sitio web en Fabulous Healing, usted acepta estar vinculado por estos términos de servicio, todas las leyes y regulaciones aplicables, y acepta que es responsable del cumplimiento de las leyes locales aplicables. Si no está de acuerdo con alguno de estos términos, tiene prohibido usar o acceder a este sitio. Los materiales contenidos en este sitio web están protegidos por las leyes de derechos de autor y marcas comerciales aplicables.
+
+2. Licencia de uso
+Se concede permiso para descargar temporalmente una copia de los materiales (información o software) en el sitio web de Fabulous Healing solo para visualización transitoria personal y no comercial. Esta es la concesión de una licencia, no una transferencia de título, y bajo esta licencia usted no puede:
+
+- modificar o copiar los materiales;
+- usar los materiales para cualquier propósito comercial, o para cualquier exhibición pública (comercial o no comercial);
+- intentar descompilar o realizar ingeniería inversa de cualquier software contenido en el sitio web de Fabulous Healing;
+- eliminar cualquier derecho de autor u otras notaciones de propiedad de los materiales; o
+- transferir los materiales a otra persona o "espejar" los materiales en cualquier otro servidor.
+
+Esta licencia terminará automáticamente si usted viola cualquiera de estas restricciones y puede ser terminada por Fabulous Healing en cualquier momento. Al terminar su visualización de estos materiales o al terminar esta licencia, debe destruir cualquier material descargado en su posesión, ya sea en formato electrónico o impreso.
+
+3. Descargo de responsabilidad
+Los materiales en el sitio web de Fabulous Healing se proporcionan "tal cual". Fabulous Healing no ofrece garantías, expresas o implícitas, y por la presente renuncia y niega todas las otras garantías incluyendo, sin limitación, garantías implícitas o condiciones de comerciabilidad, idoneidad para un propósito particular, o no infracción de propiedad intelectual u otra violación de derechos.
+Además, Fabulous Healing no garantiza ni hace ninguna representación con respecto a la precisión, los resultados probables, o la confiabilidad del uso de los materiales en su sitio web o de otra manera relacionado con dichos materiales o en cualquier sitio vinculado a este sitio.`,
+            },
         },
     },
     en: {
@@ -447,12 +533,21 @@ export const translations = {
                 experience: { value: '15+', label: 'Years of Practice' },
                 lives: { value: '10k+', label: 'Lives Touched' },
             },
-            valuesTitle: 'Portal Values',
-            values: {
-                consciousness: { title: 'Consciousness', text: 'Awakening to the truth that lies beyond the veils of matter.' },
-                tuning: { title: 'Tuning', text: 'Adjusting your vibration to the higher octaves of love and light.' },
-                protection: { title: 'Protection', text: 'Shielding your energy field against dissonant frequencies.' },
-                unity: { title: 'Unity', text: 'Recognizing that we are all part of the same Divine Seed.' },
+            journey: {
+                part1: 'A minha trajetória até aqui foi marcada por muitos desafios, profundas transformações e sucessivas camadas de libertação emocional, que me conduziram a um reencontro autêntico com o meu verdadeiro propósito mediúnico.',
+                part2: 'A minha formação de base é em Tradução e, ao longo de muitos anos, ajudei escritores e terapeutas a expandirem os seus dons para o mundo com traduções, levando o seu conhecimento e sabedoria a outras línguas e culturas. Curiosamente, enquanto apoiava outros a reconhecerem o seu valor, fui sendo chamada a reconhecer o meu próprio dom — um talento profundo que só se revelou plenamente após um intenso processo de cura interna e expansão de consciência.',
+                pillarsIntro: 'O meu trabalho terapêutico está fundamentado em três pilares essenciais:',
+                pillar1: '✨ Frequências Sonoras, que actuam directamente no subconsciente, promovendo desbloqueios internos e activando novas consciências no ser;',
+                pillar2: '✨ Geometrias Sagradas, canalizadas por mim e também integradas a partir de formações ao longo da minha trajetória, incluindo geometrias de origem arcturiana, siriana e angelical, que reorganizam padrões energéticos e activam códigos de luz;',
+                pillar3: '✨ Cristais, que auxiliam no reordenamento do campo electromagnético (aura) do ser tratado, trazendo alinhamento, estabilidade e expansão vibracional.',
+                part3: 'A energia do meu trabalho é única, pois está profundamente ancorada na minha egrégora de trabalho, construída ao longo de anos de ancoramento, entrega, canalização e serviço consciente. Actuo como canal para que cada pessoa possa conectar possibilidades mais elevadas, alinhadas com o seu momento único de vida e com aquilo que é verdadeiramente o melhor para a sua evolução, cura e bem-estar.',
+                part4: 'Cada sessão, atendimento, é um encontro sagrado, criado para apoiar o ser a recordar quem é, a libertar o que já não serve e a abrir espaço para novas realidades mais alinhadas com a sua essência.',
+            },
+            valuesTitle: 'Work Pillars',
+            pillars: {
+                sound: { title: 'Sound Frequencies', text: 'Act directly on the subconscious, promoting internal unblocking and activating new consciousness.' },
+                geometry: { title: 'Sacred Geometries', text: 'Channeled and integrated to reorganize energetic patterns and activate light codes.' },
+                crystals: { title: 'Crystals', text: 'Assist in reordering the electromagnetic field, bringing alignment and stability.' },
             },
         },
         services: {
@@ -593,6 +688,40 @@ export const translations = {
             connect: 'Connect',
             rights: '© 2026 Fabulous Healing. All rights reserved.',
             developedBy: 'Developed with intention and love.',
+            legal: {
+                privacyTitle: 'Privacy Policy',
+                privacyContent: `Your privacy is important to us. It is Fabulous Healing policy to respect your privacy regarding any information we may collect from you across our website, Fabulous Healing, and other sites we own and operate.
+
+We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
+
+We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
+
+We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
+
+Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
+
+You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.
+
+Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.`,
+                termsTitle: 'Terms of Use',
+                termsContent: `1. Terms
+By accessing the website at Fabulous Healing, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
+
+2. Use License
+Permission is granted to temporarily download one copy of the materials (information or software) on Fabulous Healing website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+
+- modify or copy the materials;
+- use the materials for any commercial purpose, or for any public display (commercial or non-commercial);
+- attempt to decompile or reverse engineer any software contained on Fabulous Healing website;
+- remove any copyright or other proprietary notations from the materials; or
+- transfer the materials to another person or "mirror" the materials on any other server.
+
+This license shall automatically terminate if you violate any of these restrictions and may be terminated by Fabulous Healing at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
+
+3. Disclaimer
+The materials on Fabulous Healing website are provided on an 'as is' basis. Fabulous Healing makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+Further, Fabulous Healing does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.`,
+            },
         },
     },
 };

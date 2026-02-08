@@ -9,15 +9,15 @@ const Home: React.FC = () => {
 
   return (
     <div className="animate-fadeIn">
-      {/* Hero Section - Soft Cosmic Mood */}
-      <section className="relative h-[95vh] flex items-center overflow-hidden bg-purple-900">
+      {/* Hero Section - Soft Oceanic Mood */}
+      <section className="relative h-[95vh] flex items-center overflow-hidden bg-healing-aqua">
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=2000"
             alt="Mountain Meditation"
-            className="w-full h-full object-cover opacity-50 mix-blend-lighten"
+            className="w-full h-full object-cover opacity-30 mix-blend-multiply"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-900/90 via-violet-800/60 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-healing-aqua/90 via-teal-700/60 to-transparent"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

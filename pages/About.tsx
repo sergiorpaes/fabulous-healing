@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Star, Sun, Shield, Heart } from 'lucide-react';
+import { Sparkles, Music, Hexagon, Gem } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const About: React.FC = () => {
@@ -60,16 +60,43 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Values Section - Sampled from Image 4's Background */}
+      {/* Journey Section - Rose Pink Theme */}
+      <section className="py-24 relative text-white" style={{ backgroundColor: '#d497b8' }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="space-y-8 text-lg font-light leading-relaxed">
+            <p>{t.about.journey?.part1}</p>
+            <p>{t.about.journey?.part2}</p>
+
+            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-3xl my-10 border border-white/20">
+              <h3 className="text-2xl font-serif font-bold mb-6 text-white">{t.about.journey?.pillarsIntro}</h3>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <span>{t.about.journey?.pillar1}</span>
+                </li>
+                <li className="flex items-start">
+                  <span>{t.about.journey?.pillar2}</span>
+                </li>
+                <li className="flex items-start">
+                  <span>{t.about.journey?.pillar3}</span>
+                </li>
+              </ul>
+            </div>
+
+            <p>{t.about.journey?.part3}</p>
+            <p className="font-medium text-xl italic text-white/90">{t.about.journey?.part4}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Pillars Section - Sampled from Image 4's Background */}
       <section className="py-24 bg-gradient-to-br from-white via-purple-50 to-pink-50 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-6xl font-serif mb-20 italic text-deep-violet">{t.about.valuesTitle}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
-              { icon: <Sun className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.values.consciousness.title, text: t.about.values.consciousness.text },
-              { icon: <Star className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.values.tuning.title, text: t.about.values.tuning.text },
-              { icon: <Shield className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.values.protection.title, text: t.about.values.protection.text },
-              { icon: <Heart className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.values.unity.title, text: t.about.values.unity.text }
+              { icon: <Music className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.pillars?.sound.title, text: t.about.pillars?.sound.text },
+              { icon: <Hexagon className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.pillars?.geometry.title, text: t.about.pillars?.geometry.text },
+              { icon: <Gem className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.pillars?.crystals.title, text: t.about.pillars?.crystals.text }
             ].map((v, i) => (
               <div key={i} className="group p-8 rounded-[3rem] bg-white/60 backdrop-blur-md border border-purple-100 hover:bg-white hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
                 <div className="transform group-hover:scale-110 transition-transform duration-500">{v.icon}</div>

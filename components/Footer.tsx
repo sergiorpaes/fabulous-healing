@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Sparkles, Instagram, Youtube, Mail } from 'lucide-react';
+import { Instagram, Youtube, Mail } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import Modal from './Modal';
 
 const Footer: React.FC = () => {
   const { t } = useLanguage();
+  const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);
+  const [isTermsOpen, setIsTermsOpen] = useState(false);
 
   return (
     <footer className="bg-purple-50/50 border-t border-purple-100 pt-16 pb-8">
@@ -13,7 +16,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-6">
-              <Sparkles className="w-6 h-6 text-spiritual-lavender" />
+              <img src="/logo.png" alt="Fabulous Healing" className="h-12 w-auto object-contain" />
               <span className="text-xl font-serif font-bold tracking-tight text-deep-violet">
                 Fabulous <span className="text-gold">Healing</span>
               </span>
@@ -39,8 +42,22 @@ const Footer: React.FC = () => {
             <h4 className="text-deep-violet font-semibold mb-6">{t.footer.support}</h4>
             <ul className="space-y-4 text-sm text-purple-700/60">
               <li><Link to="/contato" className="hover:text-spiritual-lavender transition-colors">{t.footer.contact}</Link></li>
-              <li><a href="#" className="hover:text-spiritual-lavender transition-colors">{t.footer.privacy}</a></li>
-              <li><a href="#" className="hover:text-spiritual-lavender transition-colors">{t.footer.terms}</a></li>
+              <li>
+                <button
+                  onClick={() => setIsPrivacyOpen(true)}
+                  className="hover:text-spiritual-lavender transition-colors text-left"
+                >
+                  {t.footer.privacy}
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => setIsTermsOpen(true)}
+                  className="hover:text-spiritual-lavender transition-colors text-left"
+                >
+                  {t.footer.terms}
+                </button>
+              </li>
               <li><Link to="/comunidade" className="hover:text-spiritual-lavender transition-colors">{t.footer.community}</Link></li>
             </ul>
           </div>
@@ -67,6 +84,23 @@ const Footer: React.FC = () => {
           <p className="mt-4 md:mt-0 italic">{t.footer.developedBy}</p>
         </div>
       </div>
+
+      {/* Modals */}
+      <Modal
+        isOpen={isPrivacyOpen}
+        onClose={() => setIsPrivacyOpen(false)}
+        title={t.footer.legal?.privacyTitle || ''}
+      >
+        {t.footer.legal?.privacyContent}
+      </Modal>
+
+      <Modal
+        isOpen={isTermsOpen}
+        onClose={() => setIsTermsOpen(false)}
+        title={t.footer.legal?.termsTitle || ''}
+      >
+        {t.footer.legal?.termsContent}
+      </Modal>
     </footer>
   );
 };

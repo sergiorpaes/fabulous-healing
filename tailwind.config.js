@@ -13,9 +13,9 @@ export default {
         'gold': '#d4af37',
         'spiritual-lavender': '#e9d5ff',
         'soft-violet': '#a78bfa',
-        'deep-violet': '#3b0764',
-        'rose-pink': '#f9a8d4',
-        'healing-aqua': '#ccfbf1',
+        'deep-violet': '#7f009e',
+        'rose-pink': '#d169ab',
+        'healing-aqua': '#24a9b2',
         'purple': {
           50: '#faf5ff',
           100: '#f3e8ff',
