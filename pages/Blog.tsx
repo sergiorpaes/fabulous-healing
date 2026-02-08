@@ -1,24 +1,30 @@
 import React from 'react';
 import { Calendar, User, ArrowRight } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Blog: React.FC = () => {
+  const { t } = useLanguage();
+
   const articles = [
     {
-      title: '5 Maneiras de Proteger sua Energia no Dia a Dia',
-      category: 'Proteção Energética',
-      date: '12 de Julho, 2024',
+      title: t.blog.posts.post1.title,
+      category: t.blog.posts.post1.category,
+      date: t.blog.posts.post1.date,
+      excerpt: t.blog.posts.post1.excerpt,
       image: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=800'
     },
     {
-      title: 'A Ciência por trás das Frequências de Cura',
-      category: 'Consciência',
-      date: '08 de Julho, 2024',
+      title: t.blog.posts.post2.title,
+      category: t.blog.posts.post2.category,
+      date: t.blog.posts.post2.date,
+      excerpt: t.blog.posts.post2.excerpt,
       image: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&q=80&w=800'
     },
     {
-      title: 'Como a Meditação pode Transformar seu Subconsciente',
-      category: 'Mindfulness',
-      date: '02 de Julho, 2024',
+      title: t.blog.posts.post3.title,
+      category: t.blog.posts.post3.category,
+      date: t.blog.posts.post3.date,
+      excerpt: t.blog.posts.post3.excerpt,
       image: 'https://images.unsplash.com/photo-1499209974431-9dac3adaf471?auto=format&fit=crop&q=80&w=800'
     }
   ];
@@ -27,8 +33,10 @@ const Blog: React.FC = () => {
     <div className="animate-fadeIn">
       <section className="py-24 bg-gradient-to-b from-purple-50 to-white text-center">
         <div className="max-w-4xl mx-auto px-4">
-          <h1 className="text-6xl font-serif text-purple-950 mb-6 italic">Conteúdos para sua Evolução</h1>
-          <p className="text-xl text-purple-800/70 font-light">Sabedoria e práticas para nutrir sua jornada espiritual.</p>
+          <h1 className="text-6xl font-serif text-purple-950 mb-6 italic">
+            {t.blog.title} <span className="text-spiritual-lavender">{t.blog.titleHighlight}</span>
+          </h1>
+          <p className="text-xl text-purple-800/70 font-light">{t.blog.subtitle}</p>
         </div>
       </section>
 
@@ -50,10 +58,10 @@ const Blog: React.FC = () => {
                 {art.title}
               </h3>
               <p className="text-purple-800/60 text-sm mb-8 leading-relaxed font-light line-clamp-2">
-                Descubra técnicas fundamentais para manter seu equilíbrio emocional mesmo em ambientes desafiadores e estressantes.
+                {art.excerpt}
               </p>
               <button className="flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] hover:translate-x-2 transition-transform">
-                Ler Artigo <ArrowRight size={14} className="ml-2" />
+                {t.blog.readMore} <ArrowRight size={14} className="ml-2" />
               </button>
             </div>
           ))}

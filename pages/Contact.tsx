@@ -1,28 +1,33 @@
 import React from 'react';
 import { Mail, MapPin, Phone, Instagram, Youtube } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Contact: React.FC = () => {
+  const { t } = useLanguage();
+
   return (
     <div className="animate-fadeIn pb-24">
       <section className="py-24 bg-gradient-to-b from-purple-50 to-white text-center">
         <div className="max-w-4xl mx-auto px-4">
-          <h1 className="text-6xl font-serif text-purple-950 mb-6 italic">Contato</h1>
-          <p className="text-xl text-purple-800/70 font-light">Estamos aqui para ouvir e guiar você. Envie sua mensagem.</p>
+          <h1 className="text-6xl font-serif text-purple-950 mb-6 italic">
+            {t.contact.title} <span className="text-spiritual-lavender">{t.contact.titleHighlight}</span>
+          </h1>
+          <p className="text-xl text-purple-800/70 font-light">{t.contact.subtitle}</p>
         </div>
       </section>
 
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
           <div>
-            <h2 className="text-4xl font-serif text-purple-950 mb-10 italic">Informações de Contato</h2>
+            <h2 className="text-4xl font-serif text-purple-950 mb-10 italic">{t.contact.infoTitle}</h2>
             <div className="space-y-10 mb-16">
               <div className="flex items-center group">
                 <div className="w-16 h-16 bg-white border border-purple-100 rounded-3xl shadow-sm flex items-center justify-center text-purple-400 mr-8 group-hover:bg-purple-50 transition-all duration-500">
                   <Mail size={24} />
                 </div>
                 <div>
-                  <p className="text-[10px] font-bold uppercase tracking-widest text-purple-300 mb-1">E-mail</p>
-                  <p className="text-purple-900 font-medium text-lg">contato@fabuloushealing.com</p>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-purple-300 mb-1">{t.contact.email.title}</p>
+                  <p className="text-purple-900 font-medium text-lg">{t.contact.email.text}</p>
                 </div>
               </div>
               <div className="flex items-center group">
@@ -30,8 +35,8 @@ const Contact: React.FC = () => {
                   <Phone size={24} />
                 </div>
                 <div>
-                  <p className="text-[10px] font-bold uppercase tracking-widest text-purple-300 mb-1">Telefone / WhatsApp</p>
-                  <p className="text-purple-900 font-medium text-lg">+55 (11) 99999-9999</p>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-purple-300 mb-1">{t.contact.phone.title}</p>
+                  <p className="text-purple-900 font-medium text-lg">{t.contact.phone.text}</p>
                 </div>
               </div>
               <div className="flex items-center group">
@@ -39,8 +44,8 @@ const Contact: React.FC = () => {
                   <MapPin size={24} />
                 </div>
                 <div>
-                  <p className="text-[10px] font-bold uppercase tracking-widest text-purple-300 mb-1">Localização</p>
-                  <p className="text-purple-900 font-medium text-lg">Atendimento Online & Presencial (São Paulo/SP)</p>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-purple-300 mb-1">{t.contact.address.title}</p>
+                  <p className="text-purple-900 font-medium text-lg">{t.contact.address.text}</p>
                 </div>
               </div>
             </div>
@@ -62,12 +67,12 @@ const Contact: React.FC = () => {
             <form className="space-y-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-widest text-purple-400 mb-3 ml-2">Nome Completo</label>
-                  <input type="text" className="w-full px-6 py-4 rounded-3xl bg-purple-50/30 border border-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-200 transition-all" placeholder="Seu nome" />
+                  <label className="block text-xs font-bold uppercase tracking-widest text-purple-400 mb-3 ml-2">{t.contact.form.name}</label>
+                  <input type="text" className="w-full px-6 py-4 rounded-3xl bg-purple-50/30 border border-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-200 transition-all" placeholder={t.contact.form.name} />
                 </div>
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-widest text-purple-400 mb-3 ml-2">E-mail</label>
-                  <input type="email" className="w-full px-6 py-4 rounded-3xl bg-purple-50/30 border border-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-200 transition-all" placeholder="seu@email.com" />
+                  <label className="block text-xs font-bold uppercase tracking-widest text-purple-400 mb-3 ml-2">{t.contact.form.email}</label>
+                  <input type="email" className="w-full px-6 py-4 rounded-3xl bg-purple-50/30 border border-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-200 transition-all" placeholder={t.contact.form.email} />
                 </div>
               </div>
               <div>
@@ -80,11 +85,11 @@ const Contact: React.FC = () => {
                 </select>
               </div>
               <div>
-                <label className="block text-xs font-bold uppercase tracking-widest text-purple-400 mb-3 ml-2">Mensagem</label>
-                <textarea rows={5} className="w-full px-6 py-4 rounded-3xl bg-purple-50/30 border border-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-200 transition-all" placeholder="Como podemos te ajudar?"></textarea>
+                <label className="block text-xs font-bold uppercase tracking-widest text-purple-400 mb-3 ml-2">{t.contact.form.message}</label>
+                <textarea rows={5} className="w-full px-6 py-4 rounded-3xl bg-purple-50/30 border border-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-200 transition-all" placeholder={t.contact.form.message}></textarea>
               </div>
               <button className="w-full btn-luminous py-5 rounded-full font-bold">
-                Enviar Mensagem
+                {t.contact.form.submit}
               </button>
             </form>
           </div>
