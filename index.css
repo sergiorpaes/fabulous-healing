@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #d4af37;
+  --color-spiritual-lavender: #e9d5ff;
+  --color-soft-violet: #a78bfa;
+  --color-deep-violet: #3b0764;
+  --color-rose-pink: #f9a8d4;
+  --color-healing-aqua: #ccfbf1;
+  --color-ethereal-white: #fdfcfe;
+
+  --color-purple-50: #faf5ff;
+  --color-purple-100: #f3e8ff;
+  --color-purple-800: #6b21a8;
+  --color-purple-900: #581c87;
+
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+
+  --animate-fadeIn: fadeIn 1s ease-out forwards;
+  --animate-float: float 10s ease-in-out infinite;
+  --animate-pulse-glow: pulse-glow 8s ease-in-out infinite;
+  --animate-gradientShift: gradientShift 15s ease infinite;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  @keyframes pulse-glow {
+
+    0%,
+    100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+
+    50% {
+      opacity: 0.6;
+      transform: scale(1.1);
+    }
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+/* Custom Base Styles */
+@layer base {
+  :root {
+    --portal-gradient: linear-gradient(135deg, #e9d5ff 0%, #ccfbf1 50%, #f9a8d4 100%);
+    --button-gradient: linear-gradient(135deg, #a78bfa 0%, #f9a8d4 100%);
+  }
+
+  body {
+    background-color: var(--color-ethereal-white);
+    color: var(--color-deep-violet);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif);
+    color: var(--color-deep-violet);
+  }
+}
+
+/* Custom Utilities */
+@utility text-glow {
+  text-shadow: 0 0 15px rgba(216, 180, 254, 0.8);
+}
+
+@utility halo-glow {
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: -40px;
+    background: radial-gradient(circle, rgba(216, 180, 254, 0.4) 0%, transparent 70%);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(40px);
+    animation: var(--animate-pulse-glow);
+  }
+}
+
+@utility portal-border {
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  box-shadow: 0 0 50px rgba(167, 139, 250, 0.15);
+}
+
+@utility portal-bg {
+  background: var(--portal-gradient);
+  background-size: 200% 200%;
+  animation: var(--animate-gradientShift);
+}
+
+@utility btn-luminous {
+  background: var(--button-gradient);
+  color: white;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 15px rgba(167, 139, 250, 0.3);
+  border: none;
+
+  &:hover {
+    box-shadow: 0 6px 25px rgba(167, 139, 250, 0.5);
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+  }
+}
