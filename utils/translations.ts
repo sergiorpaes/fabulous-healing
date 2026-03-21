@@ -34,7 +34,7 @@ export const translations = {
                 manifestation: { title: 'Manifestação', desc: 'Poder criativo' },
             },
             featuredTagline: 'Protocolo Exclusivo',
-            featuredTitle: 'Fortaleça os Laços Familiares',
+            featuredTitle: 'Reconecta com tua família espiritual',
             featuredText: 'Conheça o protocolo de evolução para mães e filhos com a Semente da Vida. Uma jornada de cura sistémica que utiliza a geometria sagrada para harmonizar relações e curar feridas ancestrais.',
             featuredCta: 'Saiba como funciona',
         },
