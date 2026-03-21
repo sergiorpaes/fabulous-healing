@@ -103,6 +103,7 @@ export const translations = {
             titleHighlight: 'Digitais',
             subtitle: 'Leve a frequência da cura para o seu dia a dia.',
             cta: 'Adquirir',
+            youtubeCta: 'Assistir no YouTube',
             items: {
                 meditation: {
                     title: '21 Mantras falados: vida fabulosa.',
@@ -345,6 +346,7 @@ Além disso, o Fabulous Healing não garante ou faz qualquer representação rel
             titleHighlight: 'Digitales',
             subtitle: 'Lleva la frecuencia de curación a tu día a día.',
             cta: 'Adquirir',
+            youtubeCta: 'Ver en YouTube',
             items: {
                 meditation: {
                     title: '21 Mantras hablados: vida fabulosa.',
@@ -587,6 +589,7 @@ Además, Fabulous Healing no garantiza ni hace ninguna representación con respe
             titleHighlight: 'Products',
             subtitle: 'Bring healing frequency into your daily life.',
             cta: 'Purchase',
+            youtubeCta: 'Watch on YouTube',
             items: {
                 meditation: {
                     title: '21 Spoken Mantras: Fabulous Life.',

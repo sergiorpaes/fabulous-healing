@@ -48,7 +48,7 @@ const Products: React.FC = () => {
                 rel="noopener noreferrer"
                 className="mt-auto flex items-center text-purple-600 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-800 hover:border-purple-400 transition-all underline decoration-purple-200"
               >
-                Assistir no YouTube <Youtube className="ml-2 w-4 h-4" />
+                {t.products.youtubeCta} <Youtube className="ml-2 w-4 h-4" />
               </a>
             ) : (
               <button className="mt-auto flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-600 hover:border-purple-400 transition-all">
