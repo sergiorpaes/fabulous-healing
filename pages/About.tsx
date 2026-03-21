@@ -90,7 +90,7 @@ const About: React.FC = () => {
 
       {/* Pillars Section - Sampled from Image 4's Background */}
       <section className="py-24 relative overflow-hidden bg-white">
-        <div className="absolute inset-0 z-0 opacity-40 pointer-events-none">
+        <div className="absolute inset-0 z-0 opacity-[0.55] pointer-events-none">
           <img 
             src="/assets/about-pillars-bg.jpg" 
             className="w-full h-full object-cover" 
