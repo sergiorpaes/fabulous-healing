@@ -65,12 +65,12 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
             <div className="relative order-2 lg:order-1">
-              <div className="halo-glow max-w-md mx-auto">
-                <div className="portal-border rounded-full p-4 bg-white/50 backdrop-blur-md shadow-xl overflow-hidden">
+              <div className="halo-glow max-w-lg mx-auto">
+                <div className="portal-border rounded-[4rem] p-4 bg-white/50 backdrop-blur-md shadow-xl overflow-hidden aspect-[3/4]">
                   <img
-                    src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&q=80&w=1000"
-                    alt="Espírito de Luz"
-                    className="rounded-full w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700"
+                    src="/assets/philosophy-pendulum.jpg"
+                    alt="Mesa Radiónica e Pêndulo"
+                    className="rounded-[3.5rem] w-full h-full object-cover grayscale-[10%] hover:grayscale-0 transition-all duration-700 shadow-inner"
                   />
                 </div>
               </div>
