@@ -63,13 +63,13 @@ const Footer: React.FC = () => {
           {/* Newsletter / Social */}
           <div>
             <div className="flex space-x-4 mb-6 pt-1 transition-all duration-300">
-              <a href="#" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
+              <a href="https://www.instagram.com/fabiola.fabuloushealing/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
+              <a href="https://www.youtube.com/@fabiola.fabuloushealing" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
                 <Youtube size={20} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
+              <a href="mailto:the.fabulous.healing@gmail.com" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
                 <Mail size={20} />
               </a>
             </div>
