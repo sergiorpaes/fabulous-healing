@@ -5,9 +5,29 @@ import { handleCheckout, PAYMENT_LINKS } from '../utils/stripe';
 
 const Products: React.FC = () => {
   const { t } = useLanguage();
+  const [showSuccess, setShowSuccess] = React.useState(false);
+
+  React.useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('success') === 'true') {
+      setShowSuccess(true);
+      // Limpar os parâmetros da URL para evitar mensagens repetidas no refresh
+      window.history.replaceState({}, '', window.location.pathname);
+      
+      // Esconder a mensagem após 10 segundos
+      setTimeout(() => setShowSuccess(false), 10000);
+    }
+  }, []);
 
   return (
     <div className="animate-fadeIn">
+      {showSuccess && (
+        <div className="fixed top-24 left-1/2 -translate-x-1/2 z-50 animate-bounce">
+          <div className="bg-spiritual-lavender text-purple-900 px-8 py-4 rounded-full shadow-2xl border-2 border-white font-serif italic text-lg">
+            Gratidão pela tua aquisição! O download será processado na página de confirmação do Stripe.
+          </div>
+        </div>
+      )}
       <section className="py-24 bg-gradient-to-b from-purple-50 to-white text-center">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="text-6xl font-serif text-purple-950 mb-6 italic">
