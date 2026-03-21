@@ -105,16 +105,17 @@ export const translations = {
             cta: 'Adquirir',
             items: {
                 meditation: {
-                    title: 'Meditação Guiada: Encontro com a Criança Interior',
-                    description: 'Uma jornada de 21 dias para curar feridas emocionais da infância e recuperar a sua alegria de viver.',
+                    title: '21 Mantras falados: vida fabulosa.',
+                    description: 'Mantras curtos para escutar logo ao dormir ou ao acordar. Disponíveis em Português, Inglês e Espanhol.',
                 },
                 ebook: {
-                    title: 'E-book: Cristais para Iniciantes',
-                    description: 'Guia prático para escolher, limpar e programar os seus cristais. Aprenda a criar grelhas de proteção para a sua casa.',
+                    title: 'E-book: Vida Fabulosa',
+                    description: 'Transforma a tua vida com este guia prático de evolução e bem-estar.',
                 },
                 audio: {
-                    title: 'Áudio Binaural: Frequência do Amor (528Hz)',
-                    description: 'Áudio de alta qualidade calibrado na frequência do milagre e do amor incondicional. Ideal para meditação e sono.',
+                    title: 'Frequências para o dia a dia',
+                    description: 'Frequências relaxantes, meditativas e angélicas. Confere agora!',
+                    youtubeLink: 'https://www.youtube.com/@fabiola.fabuloushealing',
                 },
             },
         },
@@ -346,16 +347,17 @@ Além disso, o Fabulous Healing não garante ou faz qualquer representação rel
             cta: 'Adquirir',
             items: {
                 meditation: {
-                    title: 'Meditación Guiada: Encuentro con el Niño Interior',
-                    description: 'Un viaje de 21 días para curar heridas emocionales de la infancia y recuperar tu alegría de vivir.',
+                    title: '21 Mantras hablados: vida fabulosa.',
+                    description: 'Mantras cortos para escuchar antes de dormir o al despertar. Disponibles en Portugués, Inglés y Español.',
                 },
                 ebook: {
-                    title: 'E-book: Cristales para Principiantes',
-                    description: 'Guía práctica para elegir, limpiar y programar tus cristales. Aprende a crear rejillas de protección para tu hogar.',
+                    title: 'E-book: Vida Fabulosa',
+                    description: 'Transforma tu vida con esta guía práctica de evolución y bienestar.',
                 },
                 audio: {
-                    title: 'Audio Binaural: Frecuencia del Amor (528Hz)',
-                    description: 'Audio de alta calidad calibrado en la frecuencia del milagro y del amor incondicional. Ideal para meditación y sueño.',
+                    title: 'Frecuencias para el día a día',
+                    description: 'Frecuencias relajantes, meditativas e angélicas. ¡Compruébalo ahora!',
+                    youtubeLink: 'https://www.youtube.com/@fabiola.fabuloushealing',
                 },
             },
         },
@@ -587,16 +589,17 @@ Además, Fabulous Healing no garantiza ni hace ninguna representación con respe
             cta: 'Purchase',
             items: {
                 meditation: {
-                    title: 'Guided Meditation: Inner Child Encounter',
-                    description: 'A 21-day journey to heal emotional childhood wounds and recover your joy of living.',
+                    title: '21 Spoken Mantras: Fabulous Life.',
+                    description: 'Short mantras to listen to before sleep or upon waking up. Available in Portuguese, English, and Spanish.',
                 },
                 ebook: {
-                    title: 'E-book: Crystals for Beginners',
-                    description: 'Practical guide to choosing, cleansing, and programming your crystals. Learn to create protection grids for your home.',
+                    title: 'E-book: Fabulous Life',
+                    description: 'Transform your life with this practical guide to evolution and well-being.',
                 },
                 audio: {
-                    title: 'Binaural Audio: Love Frequency (528Hz)',
-                    description: 'High-quality audio calibrated to the frequency of miracles and unconditional love. Ideal for meditation and sleep.',
+                    title: 'Frequencies for Daily Life',
+                    description: 'Relaxing, meditative, and angelic frequencies. Check it out now!',
+                    youtubeLink: 'https://www.youtube.com/@fabiola.fabuloushealing',
                 },
             },
         },

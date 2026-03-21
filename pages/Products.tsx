@@ -1,5 +1,5 @@
 import React from 'react';
-import { PlayCircle, BookOpen, Monitor, Download } from 'lucide-react';
+import { PlayCircle, BookOpen, Monitor, Download, Youtube } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Products: React.FC = () => {
@@ -41,9 +41,20 @@ const Products: React.FC = () => {
             <p className="text-purple-800/60 mb-8 leading-relaxed font-light">
               {t.products.items.audio.description}
             </p>
-            <button className="mt-auto flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-600 hover:border-purple-400 transition-all">
-              {t.products.cta} <Download className="ml-2 w-4 h-4" />
-            </button>
+            {t.products.items.audio.youtubeLink ? (
+              <a 
+                href={t.products.items.audio.youtubeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto flex items-center text-purple-600 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-800 hover:border-purple-400 transition-all underline decoration-purple-200"
+              >
+                Assistir no YouTube <Youtube className="ml-2 w-4 h-4" />
+              </a>
+            ) : (
+              <button className="mt-auto flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-600 hover:border-purple-400 transition-all">
+                {t.products.cta} <Download className="ml-2 w-4 h-4" />
+              </button>
+            )}
           </div>
 
           {/* E-books */}
