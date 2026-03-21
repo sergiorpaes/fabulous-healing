@@ -89,14 +89,14 @@ const About: React.FC = () => {
       </section>
 
       {/* Pillars Section - Sampled from Image 4's Background */}
-      <section className="py-24 relative overflow-hidden">
-        <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
+      <section className="py-24 relative overflow-hidden bg-white">
+        <div className="absolute inset-0 z-0 opacity-40 pointer-events-none">
           <img 
             src="/assets/about-pillars-bg.jpg" 
             className="w-full h-full object-cover" 
             alt="" 
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-white via-purple-50/50 to-pink-50/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-white/60 via-transparent to-white/60"></div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-4xl md:text-6xl font-serif mb-20 italic text-deep-violet">{t.about.valuesTitle}</h2>
