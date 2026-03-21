@@ -61,7 +61,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Journey Section - Rose Pink Theme */}
-      <section className="py-24 relative text-white" style={{ backgroundColor: '#d497b8' }}>
+      <section className="py-24 relative text-purple-900" style={{ backgroundColor: '#d8c5d8' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-8 text-lg font-light leading-relaxed">
             <p>{t.about.journey?.part1}</p>
@@ -89,8 +89,16 @@ const About: React.FC = () => {
       </section>
 
       {/* Pillars Section - Sampled from Image 4's Background */}
-      <section className="py-24 bg-gradient-to-br from-white via-purple-50 to-pink-50 relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-24 relative overflow-hidden">
+        <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
+          <img 
+            src="/assets/about-pillars-bg.jpg" 
+            className="w-full h-full object-cover" 
+            alt="" 
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-white via-purple-50/50 to-pink-50/50"></div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-4xl md:text-6xl font-serif mb-20 italic text-deep-violet">{t.about.valuesTitle}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
