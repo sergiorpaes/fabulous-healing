@@ -192,9 +192,9 @@ export const translations = {
             },
         },
         footer: {
-            description: 'Dedicados ao despertar da consciência e à cura através de frequências elevadas e amor incondicional.',
+            description: 'Dedicada a interpretar cada alma, guiando o despertar da consciência e do campo cristalino quântico através da elevação da frequência vibracional.',
             navigation: 'Navegação',
-            about: 'Sobre Nós',
+            about: 'Sobre',
             services: 'Serviços',
             products: 'Produtos Digitais',
             blog: 'Blog & Artigos',
