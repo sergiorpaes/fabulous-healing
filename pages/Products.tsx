@@ -1,6 +1,7 @@
 import React from 'react';
 import { PlayCircle, BookOpen, Monitor, Download, Youtube } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { handleCheckout, PRICE_IDS } from '../utils/stripe';
 
 const Products: React.FC = () => {
   const { t } = useLanguage();
@@ -27,7 +28,10 @@ const Products: React.FC = () => {
             <p className="text-purple-800/60 mb-8 leading-relaxed font-light">
               {t.products.items.meditation.description}
             </p>
-            <button className="mt-auto flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-600 hover:border-purple-400 transition-all">
+            <button 
+              onClick={() => handleCheckout(PRICE_IDS.MANTRAS)}
+              className="mt-auto flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-600 hover:border-purple-400 transition-all"
+            >
               {t.products.cta} <Download className="ml-2 w-4 h-4" />
             </button>
           </div>
@@ -66,7 +70,10 @@ const Products: React.FC = () => {
             <p className="text-purple-800/60 mb-8 leading-relaxed font-light">
               {t.products.items.ebook.description}
             </p>
-            <button className="mt-auto flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-600 hover:border-purple-400 transition-all">
+            <button 
+              onClick={() => handleCheckout(PRICE_IDS.EBOOK)}
+              className="mt-auto flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-600 hover:border-purple-400 transition-all"
+            >
               {t.products.cta} <Download className="ml-2 w-4 h-4" />
             </button>
           </div>
