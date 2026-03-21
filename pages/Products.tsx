@@ -1,7 +1,7 @@
 import React from 'react';
 import { PlayCircle, BookOpen, Monitor, Download, Youtube } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { handleCheckout, PRICE_IDS } from '../utils/stripe';
+import { handleCheckout, PAYMENT_LINKS } from '../utils/stripe';
 
 const Products: React.FC = () => {
   const { t } = useLanguage();
@@ -29,7 +29,7 @@ const Products: React.FC = () => {
               {t.products.items.meditation.description}
             </p>
             <button 
-              onClick={() => handleCheckout(PRICE_IDS.MANTRAS)}
+              onClick={() => handleCheckout(PAYMENT_LINKS.MANTRAS)}
               className="mt-auto flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-600 hover:border-purple-400 transition-all"
             >
               {t.products.cta} <Download className="ml-2 w-4 h-4" />
@@ -71,7 +71,7 @@ const Products: React.FC = () => {
               {t.products.items.ebook.description}
             </p>
             <button 
-              onClick={() => handleCheckout(PRICE_IDS.EBOOK)}
+              onClick={() => handleCheckout(PAYMENT_LINKS.EBOOK)}
               className="mt-auto flex items-center text-purple-400 font-bold uppercase tracking-widest text-[10px] border-b border-purple-100 pb-1 hover:text-purple-600 hover:border-purple-400 transition-all"
             >
               {t.products.cta} <Download className="ml-2 w-4 h-4" />
