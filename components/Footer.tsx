@@ -28,8 +28,7 @@ const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-deep-violet font-semibold mb-6">{t.footer.navigation}</h4>
-            <ul className="space-y-4 text-sm text-purple-700/60">
+            <ul className="space-y-4 text-sm text-purple-700/60 transition-all duration-300">
               <li><Link to="/sobre" className="hover:text-spiritual-lavender transition-colors">{t.footer.about}</Link></li>
               <li><Link to="/servicos" className="hover:text-spiritual-lavender transition-colors">{t.footer.services}</Link></li>
               <li><Link to="/produtos" className="hover:text-spiritual-lavender transition-colors">{t.footer.products}</Link></li>
@@ -39,8 +38,7 @@ const Footer: React.FC = () => {
 
           {/* Contact & Support */}
           <div>
-            <h4 className="text-deep-violet font-semibold mb-6">{t.footer.support}</h4>
-            <ul className="space-y-4 text-sm text-purple-700/60">
+            <ul className="space-y-4 text-sm text-purple-700/60 transition-all duration-300">
               <li><Link to="/contato" className="hover:text-spiritual-lavender transition-colors">{t.footer.contact}</Link></li>
               <li>
                 <button
@@ -64,8 +62,7 @@ const Footer: React.FC = () => {
 
           {/* Newsletter / Social */}
           <div>
-            <h4 className="text-deep-violet font-semibold mb-6">{t.footer.connect}</h4>
-            <div className="flex space-x-4 mb-6">
+            <div className="flex space-x-4 mb-6 pt-1 transition-all duration-300">
               <a href="#" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
                 <Instagram size={20} />
               </a>
