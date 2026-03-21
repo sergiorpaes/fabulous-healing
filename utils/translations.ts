@@ -21,7 +21,7 @@ export const translations = {
             heroSubtitleHighlight: 'agora é o momento!',
             heroCtaPrimary: 'Iniciar Evolução',
             heroCtaSecondary: 'Conhece a Fabíola',
-            philosophyBadge: 'Aceda à sua luz original',
+            philosophyBadge: 'Conecta à tua luz original',
             philosophyTitle: 'Reconecta-te com a tua',
             philosophyTitleHighlight: 'frequência original',
             philosophyText: 'Com o',

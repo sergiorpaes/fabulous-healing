@@ -74,7 +74,7 @@ const Home: React.FC = () => {
                   />
                 </div>
               </div>
-              <div className="absolute top-24 -left-12 bg-gradient-to-br from-violet-600 to-purple-700 text-white p-6 rounded-3xl shadow-2xl animate-float z-20">
+              <div className="absolute top-48 -left-12 bg-gradient-to-br from-violet-600 to-purple-700 text-white p-6 rounded-3xl shadow-2xl animate-float z-20">
                 <Sun className="w-8 h-8 mb-4 text-healing-aqua" />
                 <p className="font-serif text-xl italic">{t.home.philosophyBadge}</p>
               </div>
