@@ -127,7 +127,7 @@ const Home: React.FC = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-healing-aqua/20 blur-[100px] rounded-full"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800"
+                  src="/assets/featured-protocol.jpg"
                   alt="Protocolo de Evolução"
                   className="rounded-[3rem] shadow-2xl relative z-10 border-4 border-white/10"
                 />
