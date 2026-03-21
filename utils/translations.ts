@@ -35,7 +35,7 @@ export const translations = {
             },
             featuredTagline: 'Protocolo Exclusivo',
             featuredTitle: 'Reconecta com tua família espiritual',
-            featuredText: 'Conhece o protocolo Fabulous, um caminho de evolução profunda que atua através de frequências sonoras, códigos energéticos e geometrias sagradas. Sustentado pela energia Arcturus–Plêiades–Sírius da equipa de tratamento da terapeuta, este processo promove a reconexão com os teus talentos ocultos para uma vida mais abundante.\n\nAo longo da sessão, são libertadas memórias e dissolvidos padrões negativos, permitindo que a harmonia se instale no teu dia a dia. O Ego deixa de conduzir o caminho da vida, abrindo espaço para uma maior consciência do Eu Superior — a tua mente superior — e para uma vivência mais alinhada, leve e verdadeira.',
+            featuredText: 'Conhece o protocolo Fabulous, um caminho de evolução profunda que atua através de frequências sonoras, cristais e códigos sagrados. Sustentado pela energia Arcturus–Plêiades–Sírius da equipa de tratamento da terapeuta, este processo promove a reconexão com os teus talentos ocultos para uma vida mais abundante.\n\nAo longo da sessão, são libertadas memórias e dissolvidos padrões negativos, permitindo que a harmonia se instale no teu dia a dia. O Ego deixa de conduzir o caminho da vida, abrindo espaço para uma maior consciência do Eu Superior — a tua mente superior — e para uma vivência mais alinhada, leve e verdadeira.',
             featuredCta: 'Descobre como funciona',
         },
         about: {
