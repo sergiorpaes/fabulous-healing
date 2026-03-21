@@ -112,15 +112,15 @@ const Home: React.FC = () => {
       {/* Featured Service - Violet and Aqua Glow */}
       <section className="py-24 bg-gradient-to-br from-violet-900 via-purple-900 to-indigo-950 text-white overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white/5 backdrop-blur-2xl border border-white/10 rounded-[4rem] p-12 md:p-20 overflow-hidden relative">
+          <div className="bg-[#c3dfdf] rounded-[4rem] p-12 md:p-20 overflow-hidden relative shadow-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="relative z-10">
-                <span className="text-spiritual-lavender font-bold tracking-widest text-xs uppercase mb-6 block">{t.home.featuredTagline}</span>
-                <h2 className="text-4xl md:text-6xl font-serif mb-8 italic text-glow">{t.home.featuredTitle}</h2>
-                <p className="text-purple-100/70 text-lg leading-relaxed mb-10 font-light whitespace-pre-line">
+                <span className="text-purple-700 font-bold tracking-widest text-xs uppercase mb-6 block">{t.home.featuredTagline}</span>
+                <h2 className="text-4xl md:text-6xl font-serif mb-8 italic text-deep-violet">{t.home.featuredTitle}</h2>
+                <p className="text-deep-violet/80 text-lg leading-relaxed mb-10 font-light whitespace-pre-line">
                   {t.home.featuredText}
                 </p>
-                <Link to="/servicos" className="inline-block bg-white text-deep-violet px-12 py-5 rounded-full font-bold hover:bg-spiritual-lavender hover:text-white transition-all shadow-xl">
+                <Link to="/servicos" className="inline-block bg-deep-violet text-white px-12 py-5 rounded-full font-bold hover:bg-spiritual-lavender hover:text-white transition-all shadow-xl">
                   {t.home.featuredCta}
                 </Link>
               </div>
