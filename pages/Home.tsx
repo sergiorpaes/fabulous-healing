@@ -117,7 +117,7 @@ const Home: React.FC = () => {
               <div className="relative z-10">
                 <span className="text-spiritual-lavender font-bold tracking-widest text-xs uppercase mb-6 block">{t.home.featuredTagline}</span>
                 <h2 className="text-4xl md:text-6xl font-serif mb-8 italic text-glow">{t.home.featuredTitle}</h2>
-                <p className="text-purple-100/70 text-lg leading-relaxed mb-10 font-light">
+                <p className="text-purple-100/70 text-lg leading-relaxed mb-10 font-light whitespace-pre-line">
                   {t.home.featuredText}
                 </p>
                 <Link to="/servicos" className="inline-block bg-white text-deep-violet px-12 py-5 rounded-full font-bold hover:bg-spiritual-lavender hover:text-white transition-all shadow-xl">
