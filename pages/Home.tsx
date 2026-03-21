@@ -31,10 +31,10 @@ const Home: React.FC = () => {
               {t.home.heroTitle} <span className="text-spiritual-lavender italic text-glow">{t.home.heroTitleHighlight}</span>
             </h1>
 
-            <div className="bg-white/10 backdrop-blur-lg border-l-4 border-spiritual-lavender p-8 rounded-r-3xl mb-12 max-w-xl">
-              <h3 className="text-2xl font-serif text-white mb-2 italic">{t.home.heroSubtitleTitle}</h3>
-              <p className="text-purple-50 font-light leading-relaxed">
-                {t.home.heroSubtitleText} <span className="text-white font-medium underline decoration-spiritual-lavender/50">{t.home.heroSubtitleHighlight}</span>
+            <div className="bg-[#dfc3df] border-l-4 border-white p-8 rounded-r-3xl mb-12 max-w-xl shadow-xl">
+              <h3 className="text-2xl font-serif text-purple-900 mb-2 italic">{t.home.heroSubtitleTitle}</h3>
+              <p className="text-purple-900/80 font-light leading-relaxed">
+                {t.home.heroSubtitleText} <span className="text-purple-900 font-medium underline decoration-purple-900/30">{t.home.heroSubtitleHighlight}</span>
               </p>
             </div>
 
