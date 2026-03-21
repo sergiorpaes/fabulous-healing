@@ -85,7 +85,7 @@ const Home: React.FC = () => {
                 {t.home.philosophyTitle} <span className="text-spiritual-lavender italic">{t.home.philosophyTitleHighlight}</span>
               </h2>
               <p className="text-purple-800/80 text-lg leading-relaxed mb-10 font-light">
-                {t.home.philosophyText} <span className="font-semibold text-deep-violet underline decoration-gold/30">{t.home.philosophyTextHighlight}</span> {t.home.philosophyTextEnd}
+                {t.home.philosophyText} <span className="font-semibold text-deep-violet underline decoration-gold/30">{t.home.philosophyTextHighlight}</span>{t.home.philosophyTextEnd}
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
