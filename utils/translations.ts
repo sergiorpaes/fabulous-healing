@@ -20,7 +20,7 @@ export const translations = {
             heroSubtitleText: 'Não esperes que a vida se torne insuportável. Se sentes que precisa de mudança,',
             heroSubtitleHighlight: 'agora é o momento!',
             heroCtaPrimary: 'Iniciar Evolução',
-            heroCtaSecondary: 'Conheça a Fabíola',
+            heroCtaSecondary: 'Conhece a Fabíola',
             philosophyBadge: 'Aceda à sua luz original',
             philosophyTitle: 'Reconecta-te com a tua',
             philosophyTitleHighlight: 'frequência original',
