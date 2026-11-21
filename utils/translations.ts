@@ -227,6 +227,7 @@ export const translations = {
         },
         footer: {
             description: 'Dedicada a interpretar cada alma, guiando o despertar da consciência e do campo cristalino quântico através da elevação da frequência vibracional.',
+            channelerSubtitle: 'Canalizadora de Frequências',
             navigation: 'Navegação',
             about: 'Sobre',
             services: 'Experiências',
@@ -502,6 +503,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
         },
         footer: {
             description: 'Dedicados al despertar de la conciencia y la curación a través de frecuencias elevadas y amor incondicional.',
+            channelerSubtitle: 'Canalizadora de Frecuencias',
             navigation: 'Navegación',
             about: 'Sobre Nosotros',
             services: 'Experiencias',
@@ -777,6 +779,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
         },
         footer: {
             description: 'Dedicated to awakening consciousness and healing through high frequencies and unconditional love.',
+            channelerSubtitle: 'Frequency Channeler',
             navigation: 'Navigation',
             about: 'About Us',
             services: 'Experiences',

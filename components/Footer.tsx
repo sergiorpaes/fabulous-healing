@@ -10,75 +10,134 @@ const Footer: React.FC = () => {
   const [isTermsOpen, setIsTermsOpen] = useState(false);
 
   return (
-    <footer className="bg-purple-50/50 border-t border-purple-100 pt-16 pb-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-          {/* Brand */}
-          <div className="col-span-1 md:col-span-1">
-            <Link to="/" className="flex items-center space-x-2 mb-6">
-              <img src="/logo.png" alt="Fabíola Piovesan | Inuá" className="h-12 w-auto object-contain" />
-              <span className="text-xl font-serif font-bold tracking-tight text-deep-violet">
-                Fabíola Piovesan <span className="text-gold">| Inuá</span>
-              </span>
+    <footer className="relative overflow-hidden text-white">
+      {/* Cosmic Banner + Wave Footer */}
+      <div
+        className="relative bg-cover bg-center pt-12 pb-8 sm:pt-16 sm:pb-10"
+        style={{ backgroundImage: "url('/assets/footer-bg.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2a0e4d]/35 via-[#2a0e4d]/25 to-[#220a3f]/90 pointer-events-none" />
+
+        {/* Centered Brand Showcase */}
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center pb-10 sm:pb-12">
+          <Link to="/" className="inline-flex flex-col items-center group">
+            <img
+              src="/logo.png"
+              alt="Fabíola Piovesan | Inuá"
+              className="h-24 sm:h-28 w-auto object-contain mb-4 drop-shadow-[0_0_24px_rgba(255,255,255,0.4)] group-hover:scale-105 transition-transform duration-300"
+            />
+            <span className="text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold tracking-tight text-white drop-shadow-[0_2px_12px_rgba(24,8,48,0.85)]">
+              Fabíola Piovesan <span className="italic text-gold">| Inuá</span>
+            </span>
+          </Link>
+
+          <div className="mt-3 flex items-center justify-center gap-3 max-w-md mx-auto">
+            <span className="h-px flex-1 bg-gold/80" />
+            <span className="text-[11px] sm:text-xs font-medium tracking-[0.28em] uppercase text-white/95 drop-shadow">
+              {t.footer.channelerSubtitle}
+            </span>
+            <span className="h-px flex-1 bg-gold/80" />
+          </div>
+        </div>
+
+        {/* Bottom Purple-to-Aqua Bar */}
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="rounded-3xl bg-gradient-to-r from-[#2c0e52]/90 via-[#431978]/90 to-[#186884]/90 backdrop-blur-md border border-healing-aqua/40 shadow-[0_0_35px_rgba(36,169,178,0.25)] px-6 py-5 sm:px-10 sm:py-6 flex flex-col md:flex-row items-center justify-between gap-6">
+            {/* Left Brand */}
+            <Link to="/" className="flex items-center gap-4 group">
+              <img
+                src="/logo.png"
+                alt="Fabíola Piovesan | Inuá"
+                className="h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+              />
+              <span className="h-10 w-px bg-gold/70" />
+              <div>
+                <p className="text-xl sm:text-2xl font-serif font-semibold tracking-tight text-white leading-tight">
+                  Fabíola Piovesan <span className="text-gold">| Inuá</span>
+                </p>
+                <p className="text-[10px] sm:text-[11px] tracking-[0.26em] uppercase text-purple-100/85 mt-0.5">
+                  {t.footer.channelerSubtitle}
+                </p>
+              </div>
             </Link>
-            <p className="text-purple-800/60 text-sm leading-relaxed">
-              {t.footer.description}
-            </p>
-          </div>
 
-          {/* Quick Links */}
-          <div>
-            <ul className="space-y-4 text-sm text-purple-700/60 transition-all duration-300">
-              <li><Link to="/sobre" className="hover:text-spiritual-lavender transition-colors">{t.footer.about}</Link></li>
-              <li><Link to="/servicos" className="hover:text-spiritual-lavender transition-colors">{t.footer.services}</Link></li>
-              <li><Link to="/produtos" className="hover:text-spiritual-lavender transition-colors">{t.footer.products}</Link></li>
-              <li><Link to="/blog" className="hover:text-spiritual-lavender transition-colors">{t.footer.blog}</Link></li>
-            </ul>
-          </div>
+            <span className="hidden md:block h-11 w-px bg-gold/60" />
 
-          {/* Contact & Support */}
-          <div>
-            <ul className="space-y-4 text-sm text-purple-700/60 transition-all duration-300">
-              <li><Link to="/contato" className="hover:text-spiritual-lavender transition-colors">{t.footer.contact}</Link></li>
-              <li>
-                <button
-                  onClick={() => setIsPrivacyOpen(true)}
-                  className="hover:text-spiritual-lavender transition-colors text-left"
-                >
-                  {t.footer.privacy}
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => setIsTermsOpen(true)}
-                  className="hover:text-spiritual-lavender transition-colors text-left"
-                >
-                  {t.footer.terms}
-                </button>
-              </li>
-              <li><Link to="/comunidade" className="hover:text-spiritual-lavender transition-colors">{t.footer.community}</Link></li>
-            </ul>
-          </div>
-
-          {/* Newsletter / Social */}
-          <div>
-            <div className="flex space-x-4 mb-6 pt-1 transition-all duration-300">
-              <a href="https://www.instagram.com/fabiola.fabuloushealing/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
-                <Instagram size={20} />
+            {/* Right Social Icons */}
+            <div className="flex items-center gap-4">
+              <a
+                href="https://www.instagram.com/fabiola.fabuloushealing/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="w-11 h-11 rounded-xl bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] flex items-center justify-center text-white shadow-md hover:scale-110 transition-transform"
+              >
+                <Instagram size={22} />
               </a>
-              <a href="https://www.youtube.com/@fabiola.fabuloushealing" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
-                <Youtube size={20} />
+
+              <a
+                href="https://www.youtube.com/@fabiola.fabuloushealing"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="w-11 h-11 rounded-xl bg-[#e62117] flex items-center justify-center text-white shadow-md hover:scale-110 transition-transform"
+              >
+                <Youtube size={22} />
               </a>
-              <a href="mailto:the.fabulous.healing@gmail.com" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-300 hover:text-spiritual-lavender hover:bg-purple-50 transition-all border border-purple-50">
+
+              <a
+                href="https://wa.me/351912345678"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="w-11 h-11 rounded-xl bg-[#25D366] flex items-center justify-center text-white shadow-md hover:scale-110 transition-transform"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  className="w-6 h-6 fill-current"
+                  aria-hidden="true"
+                >
+                  <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.375c1.469.797 3.109 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.813 14.125c-.25.703-1.438 1.344-1.984 1.422-.516.078-1.156.109-1.875-.125-.438-.141-.984-.328-1.703-.641-2.984-1.297-4.938-4.313-5.094-4.516-.141-.203-1.219-1.625-1.219-3.094s.766-2.188 1.047-2.484c.281-.297.609-.375.813-.375.203 0 .406 0 .578.016.188.016.438-.078.688.531.25.609.859 2.094.938 2.25.078.156.125.344.031.547-.109.203-.156.328-.313.516-.156.188-.328.406-.469.547-.156.156-.313.328-.141.625.172.297.781 1.297 1.688 2.109 1.156 1.031 2.141 1.359 2.438 1.5.297.141.469.125.641-.078.172-.203.75-.875.953-1.172.203-.297.406-.25.672-.156.266.094 1.703.813 2 .953.297.141.484.219.563.344.078.125.078.719-.172 1.422z" />
+                </svg>
+              </a>
+
+              <a
+                href="mailto:the.fabulous.healing@gmail.com"
+                aria-label="Email"
+                className="w-11 h-11 rounded-xl bg-white/15 border border-white/25 flex items-center justify-center text-white shadow-md hover:bg-white/25 hover:scale-110 transition-all"
+              >
                 <Mail size={20} />
               </a>
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="pt-8 border-t border-purple-100 flex flex-col md:flex-row justify-between items-center text-purple-300 text-xs">
+      {/* Bottom Legal & Copyright Strip */}
+      <div className="bg-[#1e0939] border-t border-white/10 py-4 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3 text-purple-200/75 text-xs">
           <p>{t.footer.rights}</p>
-          <p className="mt-4 md:mt-0 italic">{t.footer.developedBy}</p>
+          <div className="flex items-center gap-4">
+            <button
+              onClick={() => setIsPrivacyOpen(true)}
+              className="hover:text-gold transition-colors"
+            >
+              {t.footer.privacy}
+            </button>
+            <span className="text-white/25">|</span>
+            <button
+              onClick={() => setIsTermsOpen(true)}
+              className="hover:text-gold transition-colors"
+            >
+              {t.footer.terms}
+            </button>
+            {t.footer.developedBy && (
+              <>
+                <span className="text-white/25">|</span>
+                <span className="italic">{t.footer.developedBy}</span>
+              </>
+            )}
+          </div>
         </div>
       </div>
 
