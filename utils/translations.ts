@@ -127,7 +127,7 @@ export const translations = {
             infoTitle: 'Os Nossos Canais',
             address: {
                 title: 'Localização',
-                text: 'Rua da Luz, 123 - Lisboa, Portugal',
+                text: 'Calle Parma, 1-F - Polop, Alicante, Espanha',
             },
             email: {
                 title: 'Email',
@@ -370,7 +370,7 @@ Além disso, o Fabulous Healing não garante ou faz qualquer representação rel
             infoTitle: 'Nuestros Canais',
             address: {
                 title: 'Ubicación',
-                text: 'Rua da Luz, 123 - Lisboa, Portugal',
+                text: 'Calle Parma, 1-F - Polop, Alicante, España',
             },
             email: {
                 title: 'Correo Electrónico',
@@ -613,7 +613,7 @@ Además, Fabulous Healing no garantiza ni hace ninguna representación con respe
             infoTitle: 'Our Channels',
             address: {
                 title: 'Location',
-                text: 'Rua da Luz, 123 - Lisbon, Portugal',
+                text: 'Calle Parma, 1-F - Polop, Alicante, Spain',
             },
             email: {
                 title: 'Email',
