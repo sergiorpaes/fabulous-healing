@@ -41,8 +41,8 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Purple-to-Aqua Bar */}
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
-          <div className="rounded-3xl bg-gradient-to-r from-[#2c0e52]/90 via-[#431978]/90 to-[#186884]/90 backdrop-blur-md border border-healing-aqua/40 shadow-[0_0_35px_rgba(36,169,178,0.25)] px-6 py-6 sm:px-10 flex flex-col items-center justify-center text-center gap-5">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6">
+          <div className="rounded-3xl bg-gradient-to-r from-[#2c0e52]/90 via-[#431978]/90 to-[#186884]/90 backdrop-blur-md border border-healing-aqua/40 shadow-[0_0_35px_rgba(36,169,178,0.25)] px-6 py-5 sm:px-10 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
             {/* Centered Brand */}
             <Link to="/" className="flex flex-col sm:flex-row items-center gap-3 group">
               <img
