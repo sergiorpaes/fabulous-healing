@@ -15,9 +15,9 @@ const Home: React.FC = () => {
           <img
             src="/assets/home-hero.jpg"
             alt="Fabíola Piovesan | Inuá"
-            className="w-full h-full object-cover object-center opacity-50"
+            className="w-full h-full object-cover object-center opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-healing-aqua/80 via-teal-700/45 to-healing-aqua/25"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-healing-aqua/60 via-teal-700/25 to-healing-aqua/10"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
