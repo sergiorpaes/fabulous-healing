@@ -24,11 +24,11 @@ const Navbar: React.FC = () => {
   return (
     <nav className="fixed w-full z-50 bg-white/60 backdrop-blur-xl border-b border-purple-100 shadow-sm">
       <div className="max-w-[92rem] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center gap-6 xl:gap-10 h-24">
+        <div className="flex justify-between items-center gap-2 sm:gap-6 xl:gap-10 h-20 lg:h-24">
           <div className="flex items-center shrink-0">
-            <Link to="/" className="flex items-center space-x-3 group shrink-0">
-              <img src="/logo.png" alt="Fabíola Piovesan | Inuá" className="h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
-              <span className="text-xl lg:text-2xl xl:text-[26px] font-serif font-semibold tracking-tight text-deep-violet whitespace-nowrap">
+            <Link to="/" className="flex items-center space-x-2 lg:space-x-3 group shrink-0">
+              <img src="/logo.png" alt="Fabíola Piovesan | Inuá" className="h-12 sm:h-16 lg:h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
+              <span className="text-base sm:text-xl lg:text-2xl xl:text-[26px] font-serif font-semibold tracking-tight text-deep-violet whitespace-nowrap">
                 Fabíola Piovesan <span className="text-gold">| Inuá</span>
               </span>
             </Link>
@@ -79,7 +79,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden flex items-center space-x-4">
+          <div className="lg:hidden flex items-center space-x-2.5 sm:space-x-4 shrink-0">
             <div className="flex items-center space-x-1">
               <button onClick={() => setLanguage('pt')} className={`text-xs font-bold ${language === 'pt' ? 'text-deep-violet' : 'text-purple-300'}`}>PT</button>
               <span className="text-purple-200">|</span>
@@ -89,7 +89,8 @@ const Navbar: React.FC = () => {
             </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-deep-violet hover:text-gold transition-colors"
+              aria-label="Menu"
+              className="p-1.5 rounded-lg text-deep-violet hover:text-gold hover:bg-purple-50 transition-colors"
             >
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
