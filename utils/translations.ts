@@ -271,7 +271,7 @@ export const translations = {
             },
             email: {
                 title: 'Email',
-                text: 'contacto@fabuloushealing.com',
+                text: 'the.fabulous.healing@gmail.com',
             },
             phone: {
                 title: 'Telefone',
@@ -668,7 +668,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
             },
             email: {
                 title: 'Correo Electrónico',
-                text: 'contacto@fabuloushealing.com',
+                text: 'the.fabulous.healing@gmail.com',
             },
             phone: {
                 title: 'Teléfono',
@@ -1065,7 +1065,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
             },
             email: {
                 title: 'Email',
-                text: 'contact@fabuloushealing.com',
+                text: 'the.fabulous.healing@gmail.com',
             },
             phone: {
                 title: 'Phone',
