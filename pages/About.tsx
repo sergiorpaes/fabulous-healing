@@ -123,19 +123,9 @@ const About: React.FC = () => {
       {/* Frequency Reconnection Banner + Work Pillars */}
       <section className="relative bg-gradient-to-br from-[#eef5fa] via-[#f7f4fb] to-[#fdf6f4] overflow-hidden">
         {/* Top Split Banner */}
-        <div className="relative lg:min-h-[480px] flex flex-col lg:flex-row lg:items-center">
-          <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[48%] h-96 sm:h-[28rem] lg:h-full relative">
-            <img
-              src="/images/fabiola-praia.jpg"
-              alt={t.about.frequencyBanner.titleHighlight}
-              className="w-full h-full object-cover object-top"
-            />
-            <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-[#f3f2f9] via-[#f3f2f9]/30 to-transparent" />
-            <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-[#f3f2f9] via-transparent to-transparent" />
-          </div>
-
-          <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div className="lg:w-[50%] py-12 sm:py-16 lg:py-20 space-y-5">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
+            <div className="lg:col-span-5 py-12 sm:py-16 lg:py-24 space-y-5 relative z-10">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.65rem] font-serif leading-[1.12] text-[#3b1566] font-normal">
                 {t.about.frequencyBanner.title}{' '}
                 <span className="italic block text-[#5b2a86]">
@@ -157,6 +147,19 @@ const About: React.FC = () => {
                   <span>{t.about.frequencyBanner.button}</span>
                   <ArrowRight size={16} />
                 </Link>
+              </div>
+            </div>
+
+            <div className="lg:col-span-7 relative h-[460px] sm:h-[560px] lg:h-[640px] flex justify-end">
+              <div className="relative w-full h-full overflow-hidden">
+                <img
+                  src="/images/fabiola-praia.jpg"
+                  alt={t.about.frequencyBanner.titleHighlight}
+                  className="w-full h-full object-cover object-[center_20%]"
+                />
+                <div className="hidden lg:block absolute inset-y-0 left-0 w-36 bg-gradient-to-r from-[#f3f2f9] via-[#f3f2f9]/60 to-transparent pointer-events-none" />
+                <div className="hidden lg:block absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-[#fdf6f4] via-[#fdf6f4]/40 to-transparent pointer-events-none" />
+                <div className="lg:hidden absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-[#f3f2f9] to-transparent pointer-events-none" />
               </div>
             </div>
           </div>
