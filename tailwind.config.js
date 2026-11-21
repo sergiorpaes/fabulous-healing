@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'gold': '#d4af37',
+        'gold': '#eb85a0',
         'spiritual-lavender': '#e9d5ff',
         'soft-violet': '#a78bfa',
         'deep-violet': '#7f009e',
