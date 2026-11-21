@@ -79,7 +79,7 @@ export const translations = {
                 'Equilíbrio e expansão de consciência',
                 'Conexão estelar e multidimensional',
             ],
-            sectionTitle: 'Minhas Experiências',
+            sectionTitle: 'O que podes vivenciar',
             items: [
                 {
                     id: 'semente-vida',
@@ -355,7 +355,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
                 'Equilibrio y expansión de conciencia',
                 'Conexión estelar y multidimensional',
             ],
-            sectionTitle: 'Mis Experiencias',
+            sectionTitle: 'Lo que puedes vivenciar',
             items: [
                 {
                     id: 'semente-vida',
@@ -631,7 +631,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
                 'Balance & expansion of consciousness',
                 'Stellar & multidimensional connection',
             ],
-            sectionTitle: 'My Experiences',
+            sectionTitle: 'What you can experience',
             items: [
                 {
                     id: 'semente-vida',
