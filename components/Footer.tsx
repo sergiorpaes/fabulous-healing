@@ -41,17 +41,16 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Purple-to-Aqua Bar */}
-        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="rounded-3xl bg-gradient-to-r from-[#2c0e52]/90 via-[#431978]/90 to-[#186884]/90 backdrop-blur-md border border-healing-aqua/40 shadow-[0_0_35px_rgba(36,169,178,0.25)] px-6 py-5 sm:px-10 sm:py-6 flex flex-col md:flex-row items-center justify-between gap-6">
-            {/* Left Brand */}
-            <Link to="/" className="flex items-center gap-4 group">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="rounded-3xl bg-gradient-to-r from-[#2c0e52]/90 via-[#431978]/90 to-[#186884]/90 backdrop-blur-md border border-healing-aqua/40 shadow-[0_0_35px_rgba(36,169,178,0.25)] px-6 py-6 sm:px-10 flex flex-col items-center justify-center text-center gap-5">
+            {/* Centered Brand */}
+            <Link to="/" className="flex flex-col sm:flex-row items-center gap-3 group">
               <img
                 src="/logo.png"
                 alt="Fabíola Piovesan | Inuá"
                 className="h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
               />
-              <span className="h-10 w-px bg-gold/70" />
-              <div>
+              <div className="text-center sm:text-left">
                 <p className="text-xl sm:text-2xl font-serif font-semibold tracking-tight text-white leading-tight">
                   Fabíola Piovesan <span className="text-gold">| Inuá</span>
                 </p>
@@ -61,9 +60,7 @@ const Footer: React.FC = () => {
               </div>
             </Link>
 
-            <span className="hidden md:block h-11 w-px bg-gold/60" />
-
-            {/* Right Social Icons */}
+            {/* Centered Social Icons */}
             <div className="flex items-center gap-4">
               <a
                 href="https://www.instagram.com/fabiola.inua/"

@@ -91,7 +91,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Unified Frequency & Video Showcase Section */}
-      <section className="bg-gradient-to-b from-[#faf6fb] via-[#f7f4fa] to-[#f4eff8] pt-14 sm:pt-16">
+      <section className="bg-gradient-to-b from-[#faf6fb] via-[#f7f4fa] to-[#f4eff8] py-14 sm:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Centered Brand Header */}
           <div className="flex flex-col items-center text-center mb-12">
@@ -172,30 +172,7 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom 3-Photo Strip */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-0 w-full">
-          <div className="h-52 sm:h-60 overflow-hidden">
-            <img
-              src="/assets/philosophy-pendulum.jpg"
-              alt={t.home.cards.protection.title}
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-            />
-          </div>
-          <div className="h-52 sm:h-60 overflow-hidden">
-            <img
-              src="/assets/exp-semente-expansao.jpg"
-              alt={t.home.cards.balance.title}
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-            />
-          </div>
-          <div className="h-52 sm:h-60 overflow-hidden">
-            <img
-              src="/assets/exp-reiki.jpg"
-              alt={t.home.cards.manifestation.title}
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-            />
-          </div>
-        </div>
+
       </section>
     </div>
   );
