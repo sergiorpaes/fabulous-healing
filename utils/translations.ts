@@ -114,7 +114,7 @@ export const translations = {
         },
         services: {
             eyebrow: 'EXPERIÊNCIAS',
-            title: 'Terapias, ativações e leituras',
+            title: 'Sessões, ativações e leituras',
             titleHighlight: 'para a tua expansão',
             subtitle: 'Acompanhamentos vibracionais, energéticos e canalizados para limpar, harmonizar, ativar a tua frequência original e apoiar o teu processo de despertar e expansão de consciência.',
             pillars: [
@@ -153,7 +153,7 @@ export const translations = {
                 {
                     id: 'ativacoes',
                     title: 'Outras Ativações',
-                    description: 'Puxão Quântico Radiônico, Tameana Puja (conexão pleiadiana) e ativações de Códigos Sirianos e da Cabala.',
+                    description: 'Puxão Quântico Radiônico, Tameana Puja (conexão pleiadiana) e ativações de Códigos Sirianos e Arcturianos.',
                 },
                 {
                     id: 'limpeza',
@@ -497,7 +497,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
         },
         services: {
             eyebrow: 'EXPERIENCIAS',
-            title: 'Terapias, activaciones y lecturas',
+            title: 'Sesiones, activaciones y lecturas',
             titleHighlight: 'para tu expansión',
             subtitle: 'Acompañamientos vibracionales, energéticos y canalizados para limpiar, armonizar, activar tu frecuencia original y apoyar tu proceso de despertar y expansión de conciencia.',
             pillars: [
@@ -536,7 +536,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
                 {
                     id: 'ativacoes',
                     title: 'Otras Activaciones',
-                    description: 'Puxão Quántico Radiónico, Tameana Puja (conexión pleyadiana) y activaciones de Códigos Sirianos y de la Cábala.',
+                    description: 'Puxão Quántico Radiónico, Tameana Puja (conexión pleyadiana) y activaciones de Códigos Sirianos y Arcturianos.',
                 },
                 {
                     id: 'limpeza',
@@ -880,7 +880,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
         },
         services: {
             eyebrow: 'EXPERIENCES',
-            title: 'Therapies, activations, and readings',
+            title: 'Sessions, activations, and readings',
             titleHighlight: 'for your expansion',
             subtitle: 'Vibrational, energetic, and channeled guidance to cleanse, harmonize, activate your original frequency, and support your awakening and expansion of consciousness.',
             pillars: [
@@ -919,7 +919,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
                 {
                     id: 'ativacoes',
                     title: 'Other Activations',
-                    description: 'Quantum Radionic Pull, Tameana Puja (Pleiadian connection), and Sirian & Kabbalah Code activations.',
+                    description: 'Quantum Radionic Pull, Tameana Puja (Pleiadian connection), and Sirian & Arcturian Code activations.',
                 },
                 {
                     id: 'limpeza',
