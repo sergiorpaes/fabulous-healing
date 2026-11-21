@@ -6,6 +6,7 @@ export const translations = {
             home: 'Início',
             about: 'Sobre',
             services: 'Experiências',
+            courses: 'Cursos',
             products: 'Produtos',
             blog: 'Blog',
             community: 'Comunidade',
@@ -127,6 +128,69 @@ export const translations = {
                 title: 'Qual experiência é para você?',
                 description: 'Cada processo é único. Acompanho você para identificar a experiência mais adequada ao seu momento, intenção e caminho de expansão.',
                 button: 'Agendar uma orientação',
+            },
+        },
+        courses: {
+            title: 'Cursos / Mentorias',
+            subtitle: 'Formações de Reiki e Sistemas de Cura',
+            description: 'Formações completas e vivenciais para terapeutas e pessoas que desejam expandir o seu caminho de serviço, cura e consciência.',
+            features: [
+                { title: '100% Online', sub: 'No conforto da sua casa' },
+                { title: 'Diploma', sub: 'de Formação' },
+                { title: 'Acompanhamento', sub: 'Vitalício' },
+                { title: 'Mentoria e', sub: 'Suporte Contínuo' },
+                { title: 'Ativação', sub: 'Energética Completa' },
+            ],
+            sectionTitle: 'Formações Disponíveis',
+            items: [
+                {
+                    id: 'usui',
+                    title: 'Reiki Usui Tibetano',
+                    description: 'Formação completa no sistema tradicional de Reiki, com a energia e ampliação da linha Tibetana.',
+                },
+                {
+                    id: 'cosmo',
+                    title: 'Reiki Cosmo Ascensional',
+                    description: 'Uma nova linha de Reiki para Mestres de Reiki Usui, que ativa a Cura do Coração e a expansão da consciência.',
+                },
+                {
+                    id: 'arcanjos',
+                    title: 'Reiki Arcanjos',
+                    description: 'Conexão e canalização das frequências dos Arcanjos para cura, proteção e expansão.',
+                },
+                {
+                    id: 'kuanyin',
+                    title: 'Reiki Kuan Yin',
+                    description: 'A energia da Compaixão, da Misericórdia e do Amor Incondicional, que cura e harmoniza profundamente.',
+                },
+                {
+                    id: 'elmorya',
+                    title: 'Reiki El Morya',
+                    description: 'A frequência da Vontade Divina, o Propósito da Alma e a Maestria Espiritual.',
+                },
+                {
+                    id: 'cigana',
+                    title: 'Reiki Magia Cigana',
+                    description: 'A sabedoria e a força do povo cigano, que ativa a prosperidade, a proteção, a liberdade e o movimento da vida.',
+                },
+                {
+                    id: 'ouro',
+                    title: 'Reiki Ouro',
+                    description: 'Uma frequência de alta vibração que potencializa a cura, a abundância e a manifestação do Propósito.',
+                },
+                {
+                    id: 'kundalini',
+                    title: 'Reiki Kundalini',
+                    description: 'Ativa e harmoniza a energia Kundalini, despertando o potencial interior e a expansão da consciência.',
+                },
+            ],
+            featured: {
+                title: 'Sistema Arcturiano de Cura Multidimensional',
+                description: 'Formação completa neste sistema de cura canalizado, que atua nos corpos físico, emocional, mental e espiritual, facilitando a purificação, o reequilíbrio e a expansão multidimensional.',
+            },
+            bottomCta: {
+                question: 'Sente o chamado para se formar em alguma destas linhas?',
+                button: 'Conheça mais e reserve a sua vaga',
             },
         },
         products: {
@@ -282,6 +346,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
             home: 'Inicio',
             about: 'Sobre Mí',
             services: 'Experiencias',
+            courses: 'Cursos',
             products: 'Productos',
             blog: 'Blog',
             community: 'Comunidad',
@@ -403,6 +468,69 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
                 title: '¿Qué experiencia es para ti?',
                 description: 'Cada proceso es único. Te acompaño a identificar la experiencia más adecuada para tu momento, intención y camino de expansión.',
                 button: 'Reservar una orientación',
+            },
+        },
+        courses: {
+            title: 'Cursos / Mentorías',
+            subtitle: 'Formaciones de Reiki y Sistemas de Sanación',
+            description: 'Formaciones completas y vivenciales para terapeutas y personas que desean expandir su camino de servicio, sanación y conciencia.',
+            features: [
+                { title: '100% Online', sub: 'En el confort de tu casa' },
+                { title: 'Diploma', sub: 'de Formación' },
+                { title: 'Acompañamiento', sub: 'Vitalicio' },
+                { title: 'Mentoría y', sub: 'Soporte Continuo' },
+                { title: 'Activación', sub: 'Energética Completa' },
+            ],
+            sectionTitle: 'Formaciones Disponibles',
+            items: [
+                {
+                    id: 'usui',
+                    title: 'Reiki Usui Tibetano',
+                    description: 'Formación completa en el sistema tradicional de Reiki, con la energía y ampliación de la línea Tibetana.',
+                },
+                {
+                    id: 'cosmo',
+                    title: 'Reiki Cosmo Ascensional',
+                    description: 'Una nueva línea de Reiki para Maestros de Reiki Usui, que activa la Cura del Corazón y la expansión de la conciencia.',
+                },
+                {
+                    id: 'arcanjos',
+                    title: 'Reiki Arcángeles',
+                    description: 'Conexión y canalización de las frecuencias de los Arcángeles para sanación, protección y expansión.',
+                },
+                {
+                    id: 'kuanyin',
+                    title: 'Reiki Kuan Yin',
+                    description: 'La energía de la Compasión, la Misericordia y el Amor Incondicional, que sana y armoniza profundamente.',
+                },
+                {
+                    id: 'elmorya',
+                    title: 'Reiki El Morya',
+                    description: 'La frecuencia de la Voluntad Divina, el Propósito del Alma y la Maestría Espiritual.',
+                },
+                {
+                    id: 'cigana',
+                    title: 'Reiki Magia Cigana',
+                    description: 'La sabiduría y la fuerza del pueblo gitano, que activa la prosperidad, la protección, la libertad y el movimiento de la vida.',
+                },
+                {
+                    id: 'ouro',
+                    title: 'Reiki Oro',
+                    description: 'Una frecuencia de alta vibración que potencia la sanación, la abundancia y la manifestación del Propósito.',
+                },
+                {
+                    id: 'kundalini',
+                    title: 'Reiki Kundalini',
+                    description: 'Activa y armoniza la energía Kundalini, despertando el potencial interior y la expansión de la conciencia.',
+                },
+            ],
+            featured: {
+                title: 'Sistema Arcturiano de Cura Multidimensional',
+                description: 'Formación completa en este sistema de sanación canalizado, que actúa en los cuerpos físico, emocional, mental y espiritual, facilitando la purificación, el reequilibrio y la expansión multidimensional.',
+            },
+            bottomCta: {
+                question: '¿Sientes el llamado a formarte en alguna de estas líneas?',
+                button: 'Conoce más y reserva tu plaza',
             },
         },
         products: {
@@ -558,6 +686,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
             home: 'Home',
             about: 'About',
             services: 'Experiences',
+            courses: 'Courses',
             products: 'Products',
             blog: 'Blog',
             community: 'Community',
@@ -679,6 +808,69 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
                 title: 'Which experience is right for you?',
                 description: 'Every process is unique. I guide you to identify the experience best suited to your moment, intention, and path of expansion.',
                 button: 'Book a guidance session',
+            },
+        },
+        courses: {
+            title: 'Courses / Mentorships',
+            subtitle: 'Reiki & Healing Systems Trainings',
+            description: 'Complete experiential trainings for therapists and individuals who wish to expand their path of service, healing, and consciousness.',
+            features: [
+                { title: '100% Online', sub: 'From the comfort of your home' },
+                { title: 'Certificate', sub: 'of Completion' },
+                { title: 'Lifetime', sub: 'Guidance' },
+                { title: 'Mentoring &', sub: 'Continuous Support' },
+                { title: 'Complete', sub: 'Energetic Activation' },
+            ],
+            sectionTitle: 'Available Trainings',
+            items: [
+                {
+                    id: 'usui',
+                    title: 'Tibetan Usui Reiki',
+                    description: 'Complete training in the traditional Reiki system, with the energy and expansion of the Tibetan lineage.',
+                },
+                {
+                    id: 'cosmo',
+                    title: 'Ascensional Cosmo Reiki',
+                    description: 'A new Reiki lineage for Usui Reiki Masters, activating Heart Healing and expansion of consciousness.',
+                },
+                {
+                    id: 'arcanjos',
+                    title: 'Archangels Reiki',
+                    description: 'Connection and channeling of Archangel frequencies for healing, protection, and expansion.',
+                },
+                {
+                    id: 'kuanyin',
+                    title: 'Kuan Yin Reiki',
+                    description: 'The energy of Compassion, Mercy, and Unconditional Love, which heals and harmonizes deeply.',
+                },
+                {
+                    id: 'elmorya',
+                    title: 'El Morya Reiki',
+                    description: 'The frequency of Divine Will, Soul Purpose, and Spiritual Mastery.',
+                },
+                {
+                    id: 'cigana',
+                    title: 'Gypsy Magic Reiki',
+                    description: 'The wisdom and strength of the gypsy lineage, activating prosperity, protection, freedom, and the flow of life.',
+                },
+                {
+                    id: 'ouro',
+                    title: 'Gold Reiki',
+                    description: 'A high-vibration frequency that amplifies healing, abundance, and the manifestation of Purpose.',
+                },
+                {
+                    id: 'kundalini',
+                    title: 'Kundalini Reiki',
+                    description: 'Activates and harmonizes Kundalini energy, awakening inner potential and expanding consciousness.',
+                },
+            ],
+            featured: {
+                title: 'Arcturian Multidimensional Healing System',
+                description: 'Complete training in this channeled healing system, working across physical, emotional, mental, and spiritual bodies, facilitating purification, rebalancing, and multidimensional expansion.',
+            },
+            bottomCta: {
+                question: 'Do you feel called to train in any of these lineages?',
+                button: 'Learn more & reserve your spot',
             },
         },
         products: {
