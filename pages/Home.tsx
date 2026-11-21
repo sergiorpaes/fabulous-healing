@@ -1,11 +1,41 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sparkles, ArrowRight, Heart, Star, Zap, Shield, Sun } from 'lucide-react';
+import {
+  ArrowRight,
+  Flower2,
+  Gem,
+  Infinity as InfinityIcon,
+  Play,
+  Sparkles,
+  Users,
+} from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Home: React.FC = () => {
   const { t } = useLanguage();
+
+  const pillars = [
+    {
+      icon: <Flower2 className="w-9 h-9 text-[#5b3c7d] stroke-[1.4]" />,
+      title: t.home.cards.balance.title,
+      desc: t.home.cards.balance.desc,
+    },
+    {
+      icon: <Gem className="w-9 h-9 text-[#5b3c7d] stroke-[1.4]" />,
+      title: t.home.cards.protection.title,
+      desc: t.home.cards.protection.desc,
+    },
+    {
+      icon: <Users className="w-9 h-9 text-[#5b3c7d] stroke-[1.4]" />,
+      title: t.home.cards.healing.title,
+      desc: t.home.cards.healing.desc,
+    },
+    {
+      icon: <InfinityIcon className="w-9 h-9 text-[#5b3c7d] stroke-[1.4]" />,
+      title: t.home.cards.manifestation.title,
+      desc: t.home.cards.manifestation.desc,
+    },
+  ];
 
   return (
     <div className="animate-fadeIn">
@@ -60,79 +90,110 @@ const Home: React.FC = () => {
         <div className="absolute top-1/2 right-[-100px] w-[600px] h-[600px] bg-purple-400/20 rounded-full blur-[120px] pointer-events-none animate-pulse"></div>
       </section>
 
-      {/* Philosophy Section - Luminous White and Violet */}
-      <section className="py-24 bg-white relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-            <div className="relative order-2 lg:order-1">
-              <div className="halo-glow max-w-lg mx-auto">
-                <div className="portal-border rounded-[4rem] p-4 bg-white/50 backdrop-blur-md shadow-xl overflow-hidden aspect-[3/4]">
-                  <img
-                    src="/assets/philosophy-pendulum.jpg"
-                    alt="Mesa Radiónica e Pêndulo"
-                    className="rounded-[3.5rem] w-full h-full object-cover grayscale-[10%] hover:grayscale-0 transition-all duration-700 shadow-inner"
-                  />
+      {/* Unified Frequency & Video Showcase Section */}
+      <section className="bg-gradient-to-b from-[#faf6fb] via-[#f7f4fa] to-[#f4eff8] pt-14 sm:pt-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Centered Brand Header */}
+          <div className="flex flex-col items-center text-center mb-12">
+            <div className="flex items-center gap-3">
+              <img
+                src="/logo.png"
+                alt="Fabíola Piovesan | Inuá"
+                className="h-14 w-auto object-contain"
+              />
+              <div className="text-left">
+                <p className="text-2xl sm:text-3xl font-serif font-semibold tracking-tight text-[#3b1566] leading-none">
+                  Fabíola Piovesan <span className="text-gold">| Inuá</span>
+                </p>
+                <div className="flex items-center gap-2 mt-1.5">
+                  <span className="h-px w-6 bg-gold/80" />
+                  <span className="text-[10px] sm:text-[11px] font-medium tracking-[0.25em] uppercase text-[#5b3c7d]">
+                    {t.footer.channelerSubtitle}
+                  </span>
+                  <span className="h-px w-6 bg-gold/80" />
                 </div>
-              </div>
-              <div className="absolute top-48 -left-12 bg-gradient-to-br from-violet-600 to-purple-700 text-white p-6 rounded-3xl shadow-2xl animate-float z-20">
-                <Sun className="w-8 h-8 mb-4 text-healing-aqua" />
-                <p className="font-serif text-xl italic">{t.home.philosophyBadge}</p>
-              </div>
-            </div>
-
-            <div className="order-1 lg:order-2">
-              <h2 className="text-5xl md:text-7xl font-serif text-deep-violet mb-10 leading-tight">
-                {t.home.philosophyTitle} <span className="text-spiritual-lavender italic">{t.home.philosophyTitleHighlight}</span>
-              </h2>
-              <p className="text-purple-800/80 text-lg leading-relaxed mb-10 font-light">
-                {t.home.philosophyText} <span className="font-semibold text-deep-violet underline decoration-gold/30">{t.home.philosophyTextHighlight}</span>{t.home.philosophyTextEnd}
-              </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                {[
-                  { icon: <Zap className="text-spiritual-lavender" />, title: t.home.cards.balance.title, desc: t.home.cards.balance.desc },
-                  { icon: <Shield className="text-spiritual-lavender" />, title: t.home.cards.protection.title, desc: t.home.cards.protection.desc },
-                  { icon: <Heart className="text-spiritual-lavender" />, title: t.home.cards.healing.title, desc: t.home.cards.healing.desc },
-                  { icon: <Star className="text-spiritual-lavender" />, title: t.home.cards.manifestation.title, desc: t.home.cards.manifestation.desc }
-                ].map((item, idx) => (
-                  <div key={idx} className="flex items-start space-x-4">
-                    <div className="bg-purple-50 p-3 rounded-2xl border border-purple-100">{item.icon}</div>
-                    <div>
-                      <h4 className="font-bold text-deep-violet">{item.title}</h4>
-                      <p className="text-sm text-purple-400">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Featured Service - Violet and Aqua Glow */}
-      <section className="py-24 bg-gradient-to-br from-violet-900 via-purple-900 to-indigo-950 text-white overflow-hidden relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-[#c3dfdf] rounded-[4rem] p-12 md:p-20 overflow-hidden relative shadow-2xl">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div className="relative z-10">
-                <span className="text-purple-700 font-bold tracking-widest text-xs uppercase mb-6 block">{t.home.featuredTagline}</span>
-                <h2 className="text-4xl md:text-6xl font-serif mb-8 italic text-deep-violet">{t.home.featuredTitle}</h2>
-                <p className="text-deep-violet/80 text-lg leading-relaxed mb-10 font-light whitespace-pre-line">
-                  {t.home.featuredText}
-                </p>
-                <Link to="/servicos" className="inline-block bg-deep-violet text-white px-12 py-5 rounded-full font-bold hover:bg-spiritual-lavender hover:text-white transition-all shadow-xl">
-                  {t.home.featuredCta}
-                </Link>
-              </div>
-              <div className="relative">
-                <div className="absolute inset-0 bg-healing-aqua/20 blur-[100px] rounded-full"></div>
+          {/* 2-Column Main Content + Video Slot */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center mb-14">
+            <div className="lg:col-span-6 space-y-5">
+              <h2 className="text-4xl sm:text-5xl font-serif leading-[1.1] text-[#3b1566] font-normal">
+                {t.home.frequencySection.title}{' '}
+                <span className="italic block text-[#5b2a86]">
+                  {t.home.frequencySection.titleHighlight}
+                </span>
+              </h2>
+
+              <div className="w-56 h-[2px] bg-gradient-to-r from-gold via-gold/70 to-transparent rounded-full" />
+
+              <p className="text-sm sm:text-base text-[#4a395c] leading-relaxed max-w-xl">
+                {t.home.frequencySection.description}
+              </p>
+            </div>
+
+            {/* Video Container (ready for video upload) */}
+            <div className="lg:col-span-6">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-purple-900/15 border-4 border-white bg-[#2c0e52] aspect-video group">
                 <img
-                  src="/assets/featured-protocol.jpg"
-                  alt="Protocolo de Evolução"
-                  className="rounded-[3rem] shadow-2xl relative z-10 border-4 border-white/10"
+                  src="/assets/exp-cta.jpg"
+                  alt={t.home.frequencySection.titleHighlight}
+                  className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700"
                 />
+                <div className="absolute inset-0 bg-[#2c0e52]/25 flex flex-col items-center justify-center">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/30 backdrop-blur-md border-2 border-white flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+                    <Play className="w-7 h-7 sm:w-8 sm:h-8 text-white fill-white ml-1" />
+                  </div>
+                  <span className="mt-3 px-4 py-1 rounded-full bg-black/35 backdrop-blur-sm text-white text-[11px] tracking-wider uppercase font-medium">
+                    {t.home.frequencySection.videoBadge}
+                  </span>
+                </div>
               </div>
             </div>
+          </div>
+
+          {/* 4 Pillars Row */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-0 lg:divide-x divide-gold/45 pb-14">
+            {pillars.map((item) => (
+              <div
+                key={item.title}
+                className="flex flex-col items-center text-center px-4"
+              >
+                <div className="mb-3">{item.icon}</div>
+                <h3 className="text-base sm:text-lg font-serif font-bold text-[#3b1566] mb-1">
+                  {item.title}
+                </h3>
+                <p className="text-xs sm:text-[13px] text-[#4a395c] leading-snug max-w-[190px]">
+                  {item.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Bottom 3-Photo Strip */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-0 w-full">
+          <div className="h-52 sm:h-60 overflow-hidden">
+            <img
+              src="/assets/philosophy-pendulum.jpg"
+              alt={t.home.cards.protection.title}
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+          <div className="h-52 sm:h-60 overflow-hidden">
+            <img
+              src="/assets/exp-semente-expansao.jpg"
+              alt={t.home.cards.balance.title}
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+          <div className="h-52 sm:h-60 overflow-hidden">
+            <img
+              src="/assets/exp-reiki.jpg"
+              alt={t.home.cards.manifestation.title}
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+            />
           </div>
         </div>
       </section>
