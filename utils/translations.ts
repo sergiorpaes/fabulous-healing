@@ -148,7 +148,7 @@ export const translations = {
                 audio: {
                     title: 'Frequências para o dia a dia',
                     description: 'Frequências relaxantes, meditativas e angélicas. Confere agora!',
-                    youtubeLink: 'https://www.youtube.com/@fabiola.fabuloushealing',
+                    youtubeLink: 'https://www.youtube.com/@fabiola_inua',
                 },
             },
         },
@@ -159,7 +159,7 @@ export const translations = {
             infoTitle: 'Os Nossos Canais',
             address: {
                 title: 'Localização',
-                text: 'Calle Parma, 1-F - Polop, Alicante, Espanha',
+                text: 'Alicante, Espanha',
             },
             email: {
                 title: 'Email',
@@ -167,7 +167,7 @@ export const translations = {
             },
             phone: {
                 title: 'Telefone',
-                text: '+351 912 345 678',
+                text: '+34 607 37 38 58',
             },
             form: {
                 title: 'Envie uma Mensagem',
@@ -424,7 +424,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
                 audio: {
                     title: 'Frecuencias para el día a día',
                     description: 'Frecuencias relajantes, meditativas e angélicas. ¡Compruébalo ahora!',
-                    youtubeLink: 'https://www.youtube.com/@fabiola.fabuloushealing',
+                    youtubeLink: 'https://www.youtube.com/@fabiola_inua',
                 },
             },
         },
@@ -435,7 +435,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
             infoTitle: 'Nuestros Canais',
             address: {
                 title: 'Ubicación',
-                text: 'Calle Parma, 1-F - Polop, Alicante, España',
+                text: 'Alicante, España',
             },
             email: {
                 title: 'Correo Electrónico',
@@ -443,7 +443,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
             },
             phone: {
                 title: 'Teléfono',
-                text: '+351 912 345 678',
+                text: '+34 607 37 38 58',
             },
             form: {
                 title: 'Envía un Mensaje',
@@ -700,7 +700,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
                 audio: {
                     title: 'Frequencies for Daily Life',
                     description: 'Relaxing, meditative, and angelic frequencies. Check it out now!',
-                    youtubeLink: 'https://www.youtube.com/@fabiola.fabuloushealing',
+                    youtubeLink: 'https://www.youtube.com/@fabiola_inua',
                 },
             },
         },
@@ -711,7 +711,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
             infoTitle: 'Our Channels',
             address: {
                 title: 'Location',
-                text: 'Calle Parma, 1-F - Polop, Alicante, Spain',
+                text: 'Alicante, Spain',
             },
             email: {
                 title: 'Email',
@@ -719,7 +719,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
             },
             phone: {
                 title: 'Phone',
-                text: '+351 912 345 678',
+                text: '+34 607 37 38 58',
             },
             form: {
                 title: 'Send a Message',

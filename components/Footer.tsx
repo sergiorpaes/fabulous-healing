@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
             {/* Right Social Icons */}
             <div className="flex items-center gap-4">
               <a
-                href="https://www.instagram.com/fabiola.fabuloushealing/"
+                href="https://www.instagram.com/fabiola.inua/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -76,7 +76,7 @@ const Footer: React.FC = () => {
               </a>
 
               <a
-                href="https://www.youtube.com/@fabiola.fabuloushealing"
+                href="https://www.youtube.com/@fabiola_inua"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="YouTube"
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
               </a>
 
               <a
-                href="https://wa.me/351912345678"
+                href="https://wa.me/34607373858"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"

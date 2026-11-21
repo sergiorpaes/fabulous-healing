@@ -53,10 +53,10 @@ const Contact: React.FC = () => {
             <div className="bg-purple-50/50 p-8 rounded-[2.5rem] border border-purple-100/50">
               <h4 className="text-purple-900 font-bold mb-6 uppercase tracking-widest text-xs">Siga nossa jornada:</h4>
               <div className="flex space-x-8">
-                <a href="#" className="flex items-center text-purple-700/60 hover:text-purple-400 transition-colors">
-                  <Instagram size={24} className="mr-3" /> @fabuloushealing
+                <a href="https://www.instagram.com/fabiola.inua/" target="_blank" rel="noopener noreferrer" className="flex items-center text-purple-700/60 hover:text-purple-400 transition-colors">
+                  <Instagram size={24} className="mr-3" /> @fabiola.inua
                 </a>
-                <a href="#" className="flex items-center text-purple-700/60 hover:text-purple-400 transition-colors">
+                <a href="https://www.youtube.com/@fabiola_inua" target="_blank" rel="noopener noreferrer" className="flex items-center text-purple-700/60 hover:text-purple-400 transition-colors">
                   <Youtube size={24} className="mr-3" /> Fabíola Piovesan | Inuá
                 </a>
               </div>
