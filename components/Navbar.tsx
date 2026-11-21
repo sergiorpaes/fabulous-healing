@@ -23,46 +23,46 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="fixed w-full z-50 bg-white/60 backdrop-blur-xl border-b border-purple-100 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-20">
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+        <div className="flex justify-between h-24">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-2 group">
-              <img src="/logo.png" alt="Fabíola Piovesan | Inuá" className="h-16 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
-              <span className="text-2xl font-serif font-semibold tracking-tight text-deep-violet">
+            <Link to="/" className="flex items-center space-x-3 group shrink-0">
+              <img src="/logo.png" alt="Fabíola Piovesan | Inuá" className="h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
+              <span className="text-2xl xl:text-3xl font-serif font-semibold tracking-tight text-deep-violet whitespace-nowrap">
                 Fabíola Piovesan <span className="text-gold">| Inuá</span>
               </span>
             </Link>
           </div>
 
           {/* Desktop Links */}
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden md:flex items-center space-x-5 lg:space-x-6 xl:space-x-7">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium tracking-wide transition-colors duration-200 ${isActive(link.path) ? 'text-deep-violet border-b-2 border-gold pb-1' : 'text-purple-700/70 hover:text-deep-violet'
+                className={`text-sm xl:text-base font-medium tracking-wide whitespace-nowrap transition-colors duration-200 ${isActive(link.path) ? 'text-deep-violet border-b-2 border-gold pb-1' : 'text-purple-700/70 hover:text-deep-violet'
                   }`}
               >
                 {link.name}
               </Link>
             ))}
 
-            <div className="flex items-center space-x-2 border-l border-purple-200 pl-4">
+            <div className="flex items-center space-x-2 border-l border-purple-200 pl-5">
               <button
                 onClick={() => setLanguage('pt')}
-                className={`text-xs font-bold px-2 py-1 rounded transition-colors ${language === 'pt' ? 'bg-purple-100 text-deep-violet' : 'text-purple-400 hover:text-deep-violet'}`}
+                className={`text-sm font-bold px-2.5 py-1.5 rounded transition-colors ${language === 'pt' ? 'bg-purple-100 text-deep-violet' : 'text-purple-400 hover:text-deep-violet'}`}
               >
                 PT
               </button>
               <button
                 onClick={() => setLanguage('es')}
-                className={`text-xs font-bold px-2 py-1 rounded transition-colors ${language === 'es' ? 'bg-purple-100 text-deep-violet' : 'text-purple-400 hover:text-deep-violet'}`}
+                className={`text-sm font-bold px-2.5 py-1.5 rounded transition-colors ${language === 'es' ? 'bg-purple-100 text-deep-violet' : 'text-purple-400 hover:text-deep-violet'}`}
               >
                 ES
               </button>
               <button
                 onClick={() => setLanguage('en')}
-                className={`text-xs font-bold px-2 py-1 rounded transition-colors ${language === 'en' ? 'bg-purple-100 text-deep-violet' : 'text-purple-400 hover:text-deep-violet'}`}
+                className={`text-sm font-bold px-2.5 py-1.5 rounded transition-colors ${language === 'en' ? 'bg-purple-100 text-deep-violet' : 'text-purple-400 hover:text-deep-violet'}`}
               >
                 EN
               </button>
@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
 
             <Link
               to="/servicos"
-              className="bg-gradient-to-r from-purple-500 to-violet-600 text-white px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 shadow-md hover:shadow-purple-200/50"
+              className="bg-gradient-to-r from-purple-500 to-violet-600 text-white px-7 py-3 rounded-full text-sm xl:text-base font-medium whitespace-nowrap transition-all duration-300 shadow-md hover:shadow-purple-200/50"
             >
               {t.navbar.bookSession}
             </Link>
