@@ -13,11 +13,11 @@ const Home: React.FC = () => {
       <section className="relative h-[95vh] flex items-center overflow-hidden bg-healing-aqua">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=2000"
-            alt="Mountain Meditation"
-            className="w-full h-full object-cover opacity-30 mix-blend-multiply"
+            src="/assets/home-hero.jpg"
+            alt="Fabíola Piovesan | Inuá"
+            className="w-full h-full object-cover object-center opacity-50"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-healing-aqua/90 via-teal-700/60 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-healing-aqua/80 via-teal-700/45 to-healing-aqua/25"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
