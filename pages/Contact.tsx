@@ -31,18 +31,16 @@ const Contact: React.FC = () => {
     setStatus('submitting');
 
     try {
-      const params = new URLSearchParams();
-      params.append('form-name', 'contact');
-      params.append('bot-field', botField);
-      params.append('name', name);
-      params.append('email', email);
-      params.append('topic', topic);
-      params.append('message', message);
-
-      const response = await fetch('/', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: params.toString(),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name,
+          email,
+          topic,
+          message,
+          botField,
+        }),
       });
 
       if (!response.ok) {
