@@ -1,6 +1,21 @@
 import React from 'react';
-import { Sparkles, Music, Hexagon, Gem } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import {
+  ArrowRight,
+  BookOpen,
+  Flower2,
+  GraduationCap,
+  Infinity as InfinityIcon,
+  Sparkles,
+} from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+
+const PATH_ICONS = [
+  <GraduationCap key="g" className="w-7 h-7 text-gold stroke-[1.5] shrink-0" />,
+  <BookOpen key="b" className="w-7 h-7 text-gold stroke-[1.5] shrink-0" />,
+  <Flower2 key="f" className="w-7 h-7 text-gold stroke-[1.5] shrink-0" />,
+  <InfinityIcon key="i" className="w-7 h-7 text-gold stroke-[1.5] shrink-0" />,
+];
 
 const About: React.FC = () => {
   const { t } = useLanguage();
@@ -60,58 +75,76 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Journey Section - Rose Pink Theme */}
-      <section className="py-24 relative text-purple-900" style={{ backgroundColor: '#d8c5d8' }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="space-y-8 text-lg font-light leading-relaxed">
-            <p>{t.about.journey?.part1}</p>
-            <p>{t.about.journey?.part2}</p>
-
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-3xl my-10 border border-white/20">
-              <h3 className="text-2xl font-serif font-bold mb-6 text-white">{t.about.journey?.pillarsIntro}</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <span>{t.about.journey?.pillar1}</span>
-                </li>
-                <li className="flex items-start">
-                  <span>{t.about.journey?.pillar2}</span>
-                </li>
-                <li className="flex items-start">
-                  <span>{t.about.journey?.pillar3}</span>
-                </li>
-              </ul>
+      {/* Purpose Section (Deep Violet Banner + Pastel Aqua/Lavender Card) */}
+      <section className="bg-gradient-to-b from-[#3b1566] via-[#451773] to-[#310f57] py-14 sm:py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto rounded-[2rem] bg-gradient-to-r from-[#eef5fb] via-[#eaf6fa] to-[#dff3f7] p-6 sm:p-10 shadow-2xl border border-white/40 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="lg:col-span-6 space-y-4">
+            <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#5b3c7d]">
+              {t.about.purpose.eyebrow}
+            </p>
+            <h2 className="text-3xl sm:text-4xl font-serif italic text-[#3b1566] leading-tight font-normal">
+              {t.about.purpose.title}
+            </h2>
+            <p className="text-sm sm:text-base text-[#4a395c] leading-relaxed">
+              {t.about.purpose.description}
+            </p>
+            <div className="pt-2">
+              <Link
+                to="/servicos"
+                className="inline-flex items-center gap-3 bg-gradient-to-r from-[#7f009e] to-[#6d28d9] text-white px-7 py-3.5 rounded-full text-sm font-medium shadow-lg shadow-purple-900/20 hover:shadow-xl hover:brightness-110 transition-all"
+              >
+                <span>{t.about.purpose.button}</span>
+                <ArrowRight size={16} />
+              </Link>
             </div>
+          </div>
 
-            <p>{t.about.journey?.part3}</p>
-            <p className="font-medium text-xl italic text-white/90">{t.about.journey?.part4}</p>
+          <div className="lg:col-span-6">
+            <img
+              src="/assets/exp-cta.jpg"
+              alt={t.about.purpose.title}
+              className="w-full h-64 sm:h-72 object-cover rounded-2xl shadow-lg"
+            />
           </div>
         </div>
       </section>
 
-      {/* Pillars Section - Sampled from Image 4's Background */}
-      <section className="py-24 relative overflow-hidden bg-white">
-        <div className="absolute inset-0 z-0 opacity-[0.55] pointer-events-none">
-          <img 
-            src="/assets/about-pillars-bg.jpg" 
-            className="w-full h-full object-cover" 
-            alt="" 
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-white/60 via-transparent to-white/60"></div>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h2 className="text-4xl md:text-6xl font-serif mb-20 italic text-deep-violet">{t.about.valuesTitle}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {[
-              { icon: <Music className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.pillars?.sound.title, text: t.about.pillars?.sound.text },
-              { icon: <Hexagon className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.pillars?.geometry.title, text: t.about.pillars?.geometry.text },
-              { icon: <Gem className="w-10 h-10 text-spiritual-lavender mb-6 mx-auto" />, title: t.about.pillars?.crystals.title, text: t.about.pillars?.crystals.text }
-            ].map((v, i) => (
-              <div key={i} className="group p-8 rounded-[3rem] bg-white/60 backdrop-blur-md border border-purple-100 hover:bg-white hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
-                <div className="transform group-hover:scale-110 transition-transform duration-500">{v.icon}</div>
-                <h3 className="text-2xl font-serif font-bold text-deep-violet mb-4">{v.title}</h3>
-                <p className="text-purple-400 text-sm leading-relaxed font-light">{v.text}</p>
-              </div>
-            ))}
+      {/* My Path Section */}
+      <section className="bg-[#fdfcfe] py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#5b3c7d] mb-2">
+              {t.about.path.eyebrow}
+            </p>
+            <h2 className="text-3xl sm:text-4xl font-serif italic text-[#3b1566] font-normal">
+              {t.about.path.title}
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            <div className="lg:col-span-5">
+              <img
+                src="/assets/exp-hero.jpg"
+                alt={t.about.path.title}
+                className="w-full h-64 sm:h-72 object-cover rounded-2xl shadow-lg border border-purple-100/60"
+              />
+            </div>
+
+            <div className="lg:col-span-7 space-y-5">
+              {t.about.path.items.map((item, idx) => (
+                <div key={item.title} className="flex items-start gap-4">
+                  <div className="mt-1">{PATH_ICONS[idx]}</div>
+                  <div>
+                    <h3 className="text-base sm:text-lg font-sans font-bold text-[#3b1566]">
+                      {item.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm text-[#4a395c] leading-relaxed mt-0.5">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

@@ -48,6 +48,34 @@ export const translations = {
             titleHighlight: 'Propósito',
             bio1: 'Eu sou Fabíola, e minha missão é ser o canal para que pessoas reencontrem e sustentam uma frequência mais elevada. Fabíola Piovesan | Inuá nasceu da necessidade de contribuir na jornada da Nova Terra, curando feridas emocionais para que almas possam florescer livres no seu potencial máximo.',
             bio2: 'Através da minha própria jornada de despertar, aprendi que a verdadeira cura acontece quando trabalhamos nosso interno para vibrar o que desejamos no externo. Meu trabalho como canal serve de chave para o portal que já existe dentro de ti.',
+            purpose: {
+                eyebrow: 'MEU PROPÓSITO',
+                title: 'Integrar céu e terra na sua vida cotidiana',
+                description: 'O meu propósito é ajudar você a recordar a sua essência original, liberar bloqueios, elevar a sua frequência e reconectar com a sua missão de alma, para que viva com mais coerência, plenitude e expansão.',
+                button: 'Conhecer minhas experiências',
+            },
+            path: {
+                eyebrow: 'MEU CAMINHO',
+                title: 'Formação, experiência e percurso',
+                items: [
+                    {
+                        title: 'Formação Acadêmica',
+                        description: 'Mestrado em Humanidades Digitais (Tradução e Ciências da Linguagem) — Universidade do Minho, Portugal.',
+                    },
+                    {
+                        title: 'Experiência Profissional',
+                        description: 'Mais de 15 anos em tradução, edição e comunicação multilíngue (ES | PT | EN).',
+                    },
+                    {
+                        title: 'Formação Terapêutica',
+                        description: 'Reiki (Usui Tibetano, Arcanjo Rafael, Kuan Yin), Radiestesia e Radiônica, Sistema Arcturiano, Semente da Vida e mais.',
+                    },
+                    {
+                        title: 'Retiros e Facilitação',
+                        description: 'Pioneira em Retiros Estelares, guiando experiências de reconexão, cura e expansão na Espanha, Portugal e outros países.',
+                    },
+                ],
+            },
             stats: {
                 experience: { value: '15+', label: 'Anos de Prática' },
                 lives: { value: '10k+', label: 'Vidas Tocadas' },
@@ -388,6 +416,34 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
             titleHighlight: 'Propósito',
             bio1: 'Soy Fabíola, y mi misión es ser el canal para que reencuentres tu frecuencia más elevada. Fabíola Piovesan | Inuá nació de la necesidad de curar las raíces para que el alma pueda finalmente florecer libre de ataduras ancestrales.',
             bio2: 'A través de mi propio viaje de despertar, aprendí que la verdadera curación ocurre cuando alineamos la biología con la vibración universal. El uso de cristales maestros, la radiestesia y la geometría sagrada son solo las llaves para el portal que ya existe dentro de ti.',
+            purpose: {
+                eyebrow: 'MI PROPÓSITO',
+                title: 'Integrar cielo y tierra en tu vida cotidiana',
+                description: 'Mi propósito es ayudarte a recordar tu esencia original, liberar bloqueos, elevar tu frecuencia y reconectar con tu misión de alma, para que vivas con más coherencia, plenitud y expansión.',
+                button: 'Conocer mis experiencias',
+            },
+            path: {
+                eyebrow: 'MI CAMINO',
+                title: 'Formación, experiencia y recorrido',
+                items: [
+                    {
+                        title: 'Formación Académica',
+                        description: 'Máster en Humanidades Digitales (Traducción y Ciencias del Lenguaje) — Universidad de Minho, Portugal.',
+                    },
+                    {
+                        title: 'Experiencia Profesional',
+                        description: 'Más de 15 años en traducción, edición y comunicación multilingüe (ES | PT | EN).',
+                    },
+                    {
+                        title: 'Formación Terapéutica',
+                        description: 'Reiki (Usui Tibetano, Arcángel Rafael, Kuan Yin), Radiestesia y Radiónica, Sistema Arcturiano, Semente da Vida y más.',
+                    },
+                    {
+                        title: 'Retiros y Facilitación',
+                        description: 'Pionera en Retiros Estelares, guiando experiencias de reconexión, sanación y expansión en España, Portugal y otros países.',
+                    },
+                ],
+            },
             stats: {
                 experience: { value: '15+', label: 'Años de Práctica' },
                 lives: { value: '10k+', label: 'Vidas Tocadas' },
@@ -728,6 +784,34 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
             titleHighlight: 'Purpose',
             bio1: 'I am Fabíola, and my mission is to be the channel for you to rediscover your highest frequency. Fabíola Piovesan | Inuá was born from the need to heal the roots so that the soul can finally flourish free from ancestral ties.',
             bio2: 'Through my own awakening journey, I learned that true healing happens when we align biology with universal vibration. The use of master crystals, dowsing, and sacred geometry are just the keys to the portal that already exists within you.',
+            purpose: {
+                eyebrow: 'MY PURPOSE',
+                title: 'Integrating heaven and earth into your daily life',
+                description: 'My purpose is to help you remember your original essence, release blockages, raise your frequency, and reconnect with your soul mission, so you live with greater coherence, fullness, and expansion.',
+                button: 'Explore my experiences',
+            },
+            path: {
+                eyebrow: 'MY PATH',
+                title: 'Education, experience, and journey',
+                items: [
+                    {
+                        title: 'Academic Background',
+                        description: "Master's in Digital Humanities (Translation and Language Sciences) — University of Minho, Portugal.",
+                    },
+                    {
+                        title: 'Professional Experience',
+                        description: 'Over 15 years in translation, editing, and multilingual communication (ES | PT | EN).',
+                    },
+                    {
+                        title: 'Therapeutic Training',
+                        description: 'Reiki (Tibetan Usui, Archangel Raphael, Kuan Yin), Dowsing & Radionics, Arcturian System, Seed of Life, and more.',
+                    },
+                    {
+                        title: 'Retreats & Facilitation',
+                        description: 'Pioneer in Stellar Retreats, guiding experiences of reconnection, healing, and expansion in Spain, Portugal, and other countries.',
+                    },
+                ],
+            },
             stats: {
                 experience: { value: '15+', label: 'Years of Practice' },
                 lives: { value: '10k+', label: 'Lives Touched' },
