@@ -69,32 +69,64 @@ export const translations = {
             },
         },
         services: {
-            tagline: 'Experiências Vibracionais',
-            title: 'Caminhos para',
-            titleHighlight: 'Cura e Ascensão',
-            subtitle: 'Cada sessão é um portal único, aberto especificamente para a sua frequência e necessidade atual.',
-            offeringsStart: 'Protocolos',
-            offeringsHighlight: 'Exclusivos',
-            cta: 'Agendar Sessão',
-            items: {
-                tableRadius: {
-                    title: 'Mesa Radiónica dos Tronos',
-                    description: 'Harmonização completa dos chakras e limpeza de corpos subtis através da egrégora dos Tronos de Deus.',
-                    duration: '60 min',
-                    price: '€ 60',
+            eyebrow: 'EXPERIÊNCIAS',
+            title: 'Terapias, ativações e leituras',
+            titleHighlight: 'para a sua expansão',
+            subtitle: 'Acompanhamentos vibracionais, energéticos e canalizados para limpar, harmonizar, ativar a sua frequência original e apoiar o seu processo de despertar e expansão de consciência.',
+            pillars: [
+                'Limpeza e harmonização energética',
+                'Ativação de códigos e memórias',
+                'Equilíbrio e expansão de consciência',
+                'Conexão estelar e multidimensional',
+            ],
+            sectionTitle: 'Minhas Experiências',
+            items: [
+                {
+                    id: 'semente-vida',
+                    title: 'Semente da Vida',
+                    description: 'Terapia vibracional e radiônica baseada na Geometria Sagrada. Leitura do Mapa da Alma.',
                 },
-                seedOfLife: {
-                    title: 'Protocolo Semente da Vida',
-                    description: 'Cura sistémica para mães e filhos. Liberação de traumas gestacionais e fortalecimento do vínculo álmico.',
-                    duration: '90 min',
-                    price: '€ 90',
+                {
+                    id: 'semente-expansao',
+                    title: 'Semente da Expansão',
+                    description: 'Ativação de orbes, códigos do DNA, chakra 8 e abertura de portais.',
                 },
-                crystals: {
-                    title: 'Leitura de Cristais',
-                    description: 'Oráculo terapêutico com cristais mestres para orientação espiritual e desbloqueio de caminhos.',
-                    duration: '45 min',
-                    price: '€ 45',
+                {
+                    id: 'arcturiano',
+                    title: 'Sistema Arcturiano de Cura Multidimensional',
+                    description: 'Reestruturação energética em conexão com a frequência arcturiana.',
                 },
+                {
+                    id: 'reiki',
+                    title: 'Reiki',
+                    description: 'Reiki Usui Tibetano, Reiki Arcanjo Rafael e Reiki Kuan Yin.',
+                },
+                {
+                    id: 'leituras',
+                    title: 'Leituras & Oráculos',
+                    description: 'Tarot dos Anjos, Tarot Waite, Baralho Cigano e Mandala.',
+                },
+                {
+                    id: 'ativacoes',
+                    title: 'Outras Ativações',
+                    description: 'Puxão Quântico Radiônico, Tameana Puja (conexão pleiadiana) e ativações de Códigos Sirianos e da Cabala.',
+                },
+                {
+                    id: 'limpeza',
+                    title: 'Limpeza Quântica 7 Linhas',
+                    description: 'Limpeza e reestruturação profunda do campo energético nas 7 linhas (física, emocional, mental, espiritual, cármica, ancestral e estelar).',
+                },
+                {
+                    id: 'retiros',
+                    title: 'Retiros / Imersões Estelares',
+                    description: 'Experiências presenciais de reconexão, ativação e expansão em locais de alta frequência.',
+                },
+            ],
+            bottomCta: {
+                eyebrow: 'ACOMPANHAMENTO PERSONALIZADO',
+                title: 'Qual experiência é para você?',
+                description: 'Cada processo é único. Acompanho você para identificar a experiência mais adequada ao seu momento, intenção e caminho de expansão.',
+                button: 'Agendar uma orientação',
             },
         },
         products: {
@@ -312,32 +344,64 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
             },
         },
         services: {
-            tagline: 'Experiencias Vibracionales',
-            title: 'Caminos para',
-            titleHighlight: 'Curación y Ascensión',
-            subtitle: 'Cada sesión es un portal único, abierto específicamente para tu frecuencia y necesidad actual.',
-            offeringsStart: 'Protocolos',
-            offeringsHighlight: 'Exclusivos',
-            cta: 'Reservar Sesión',
-            items: {
-                tableRadius: {
-                    title: 'Mesa Radiónica de los Tronos',
-                    description: 'Armonización completa de los chakras y limpieza de cuerpos sutiles a través de la egrégora de los Tronos de Dios.',
-                    duration: '60 min',
-                    price: '€ 60',
+            eyebrow: 'EXPERIENCIAS',
+            title: 'Terapias, activaciones y lecturas',
+            titleHighlight: 'para tu expansión',
+            subtitle: 'Acompañamientos vibracionales, energéticos y canalizados para limpiar, armonizar, activar tu frecuencia original y apoyar tu proceso de despertar y expansión de conciencia.',
+            pillars: [
+                'Limpieza y armonización energética',
+                'Activación de códigos y memorias',
+                'Equilibrio y expansión de conciencia',
+                'Conexión estelar y multidimensional',
+            ],
+            sectionTitle: 'Mis Experiencias',
+            items: [
+                {
+                    id: 'semente-vida',
+                    title: 'Semente da Vida',
+                    description: 'Terapia vibracional y radiónica basada en la Geometría Sagrada. Lectura del Mapa del Alma.',
                 },
-                seedOfLife: {
-                    title: 'Protocolo Semilla de la Vida',
-                    description: 'Curación sistémica para madres e hijos. Liberación de traumas gestacionales y fortalecimiento del vínculo álmico.',
-                    duration: '90 min',
-                    price: '€ 90',
+                {
+                    id: 'semente-expansao',
+                    title: 'Semente da Expansão',
+                    description: 'Activación de orbes, códigos del ADN, chakra 8 y apertura de portales.',
                 },
-                crystals: {
-                    title: 'Lectura de Cristales',
-                    description: 'Oráculo terapéutico con cristales maestros para orientación espiritual y desbloqueo de caminos.',
-                    duration: '45 min',
-                    price: '€ 45',
+                {
+                    id: 'arcturiano',
+                    title: 'Sistema Arcturiano de Cura Multidimensional',
+                    description: 'Reestructuración energética en conexión con la frecuencia arturiana.',
                 },
+                {
+                    id: 'reiki',
+                    title: 'Reiki',
+                    description: 'Reiki Usui Tibetano, Reiki Arcángel Rafael y Reiki Kuan Yin.',
+                },
+                {
+                    id: 'leituras',
+                    title: 'Lecturas & Oráculos',
+                    description: 'Tarot de los Ángeles, Tarot Waite, Baraja Gitana y Mandala.',
+                },
+                {
+                    id: 'ativacoes',
+                    title: 'Otras Activaciones',
+                    description: 'Puxão Quántico Radiónico, Tameana Puja (conexión pleyadiana) y activaciones de Códigos Sirianos y de la Cábala.',
+                },
+                {
+                    id: 'limpeza',
+                    title: 'Limpieza Cuántica 7 Líneas',
+                    description: 'Limpieza y reestructuración profunda del campo energético en las 7 líneas (física, emocional, mental, espiritual, kármica, ancestral y estelar).',
+                },
+                {
+                    id: 'retiros',
+                    title: 'Retiros / Inmersiones Estelares',
+                    description: 'Experiencias presenciales de reconexión, activación y expansión en lugares de alta frecuencia.',
+                },
+            ],
+            bottomCta: {
+                eyebrow: 'ACOMPAÑAMIENTO PERSONALIZADO',
+                title: '¿Qué experiencia es para ti?',
+                description: 'Cada proceso es único. Te acompaño a identificar la experiencia más adecuada para tu momento, intención y camino de expansión.',
+                button: 'Reservar una orientación',
             },
         },
         products: {
@@ -555,32 +619,64 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
             },
         },
         services: {
-            tagline: 'Vibrational Experiences',
-            title: 'Pathways to',
-            titleHighlight: 'Healing and Ascension',
-            subtitle: 'Each session is a unique portal, opened specifically for your current frequency and need.',
-            offeringsStart: 'Exclusive',
-            offeringsHighlight: 'Protocols',
-            cta: 'Book Session',
-            items: {
-                tableRadius: {
-                    title: 'Thrones Radionic Table',
-                    description: 'Complete chakra harmonization and subtle body cleansing through the egregore of the Thrones of God.',
-                    duration: '60 min',
-                    price: '$ 65',
+            eyebrow: 'EXPERIENCES',
+            title: 'Therapies, activations, and readings',
+            titleHighlight: 'for your expansion',
+            subtitle: 'Vibrational, energetic, and channeled guidance to cleanse, harmonize, activate your original frequency, and support your awakening and expansion of consciousness.',
+            pillars: [
+                'Energetic cleansing & harmonization',
+                'Activation of codes & memories',
+                'Balance & expansion of consciousness',
+                'Stellar & multidimensional connection',
+            ],
+            sectionTitle: 'My Experiences',
+            items: [
+                {
+                    id: 'semente-vida',
+                    title: 'Seed of Life',
+                    description: 'Vibrational and radionic therapy based on Sacred Geometry. Soul Map Reading.',
                 },
-                seedOfLife: {
-                    title: 'Seed of Life Protocol',
-                    description: 'Systemic healing for mothers and children. Release of gestational traumas and strengthening of the soul bond.',
-                    duration: '90 min',
-                    price: '$ 95',
+                {
+                    id: 'semente-expansao',
+                    title: 'Seed of Expansion',
+                    description: 'Activation of orbs, DNA codes, 8th chakra, and portal opening.',
                 },
-                crystals: {
-                    title: 'Crystal Reading',
-                    description: 'Therapeutic oracle with master crystals for spiritual guidance and path unlocking.',
-                    duration: '45 min',
-                    price: '$ 50',
+                {
+                    id: 'arcturiano',
+                    title: 'Arcturian Multidimensional Healing System',
+                    description: 'Energetic restructuring in connection with the Arcturian frequency.',
                 },
+                {
+                    id: 'reiki',
+                    title: 'Reiki',
+                    description: 'Tibetan Usui Reiki, Archangel Raphael Reiki, and Kuan Yin Reiki.',
+                },
+                {
+                    id: 'leituras',
+                    title: 'Readings & Oracles',
+                    description: 'Angel Tarot, Waite Tarot, Gypsy Deck, and Mandala.',
+                },
+                {
+                    id: 'ativacoes',
+                    title: 'Other Activations',
+                    description: 'Quantum Radionic Pull, Tameana Puja (Pleiadian connection), and Sirian & Kabbalah Code activations.',
+                },
+                {
+                    id: 'limpeza',
+                    title: '7-Line Quantum Cleansing',
+                    description: 'Deep cleansing and restructuring of the energetic field across all 7 lines (physical, emotional, mental, spiritual, karmic, ancestral, and stellar).',
+                },
+                {
+                    id: 'retiros',
+                    title: 'Retreats / Stellar Immersions',
+                    description: 'In-person experiences of reconnection, activation, and expansion in high-frequency locations.',
+                },
+            ],
+            bottomCta: {
+                eyebrow: 'PERSONALIZED GUIDANCE',
+                title: 'Which experience is right for you?',
+                description: 'Every process is unique. I guide you to identify the experience best suited to your moment, intention, and path of expansion.',
+                button: 'Book a guidance session',
             },
         },
         products: {
