@@ -54,25 +54,34 @@ export const translations = {
                 description: 'O meu propósito é ajudar você a recordar a sua essência original, liberar bloqueios, elevar a sua frequência e reconectar com a sua missão de alma, para que viva com mais coerência, plenitude e expansão.',
                 button: 'Conhecer minhas experiências',
             },
-            path: {
-                eyebrow: 'MEU CAMINHO',
-                title: 'Formação, experiência e percurso',
+            frequencyBanner: {
+                title: 'Reconecta-te com a tua',
+                titleHighlight: 'Frequência Original e Abundância',
+                description: 'Um caminho de reconexão, libertação e expansão, que integra frequências sonoras, geometrias sagradas, cristais e a sabedoria da minha equipa estelar.',
+                button: 'Descobre como',
+            },
+            workPillars: {
+                title: 'Pilares do Trabalho',
                 items: [
                     {
-                        title: 'Formação Acadêmica',
-                        description: 'Mestrado em Humanidades Digitais (Tradução e Ciências da Linguagem) — Universidade do Minho, Portugal.',
+                        id: 'sound',
+                        title: 'Frequências Sonoras',
+                        description: 'Vibrações que harmonizam o teu campo, libertam bloqueios e elevam a tua frequência.',
                     },
                     {
-                        title: 'Experiência Profissional',
-                        description: 'Mais de 15 anos em tradução, edição e comunicação multilíngue (ES | PT | EN).',
+                        id: 'geometry',
+                        title: 'Geometrias Sagradas',
+                        description: 'Códigos vibracionais que reorganizam a tua energia, ativam a memória da alma e expandem a consciência.',
                     },
                     {
-                        title: 'Formação Terapêutica',
-                        description: 'Reiki (Usui Tibetano, Arcanjo Rafael, Kuan Yin), Radiestesia e Radiônica, Sistema Arcturiano, Semente da Vida e mais.',
+                        id: 'crystals',
+                        title: 'Cristais',
+                        description: 'Aliados naturais que potenciam a cura, equilibram o teu campo energético e conectam-te à tua sabedoria interior.',
                     },
                     {
-                        title: 'Retiros e Facilitação',
-                        description: 'Pioneira em Retiros Estelares, guiando experiências de reconexão, cura e expansão na Espanha, Portugal e outros países.',
+                        id: 'team',
+                        title: 'Minha Equipe',
+                        description: 'Trabalho ancorado nos meus Mentores e Equipa de Luz — Arcturus, Sírius e Plêiades — que sustentam, guiam e ampliam as frequências, trazendo proteção, expansão e firmeza a todo o processo.',
                     },
                 ],
             },
@@ -422,25 +431,34 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
                 description: 'Mi propósito es ayudarte a recordar tu esencia original, liberar bloqueos, elevar tu frecuencia y reconectar con tu misión de alma, para que vivas con más coherencia, plenitud y expansión.',
                 button: 'Conocer mis experiencias',
             },
-            path: {
-                eyebrow: 'MI CAMINO',
-                title: 'Formación, experiencia y recorrido',
+            frequencyBanner: {
+                title: 'Reconéctate con tu',
+                titleHighlight: 'Frecuencia Original y Abundancia',
+                description: 'Un camino de reconexión, liberación y expansión, que integra frecuencias sonoras, geometrías sagradas, cristales y la sabiduría de mi equipo estelar.',
+                button: 'Descubre cómo',
+            },
+            workPillars: {
+                title: 'Pilares del Trabajo',
                 items: [
                     {
-                        title: 'Formación Académica',
-                        description: 'Máster en Humanidades Digitales (Traducción y Ciencias del Lenguaje) — Universidad de Minho, Portugal.',
+                        id: 'sound',
+                        title: 'Frecuencias Sonoras',
+                        description: 'Vibraciones que armonizan tu campo, liberan bloqueos y elevan tu frecuencia.',
                     },
                     {
-                        title: 'Experiencia Profesional',
-                        description: 'Más de 15 años en traducción, edición y comunicación multilingüe (ES | PT | EN).',
+                        id: 'geometry',
+                        title: 'Geometrías Sagradas',
+                        description: 'Códigos vibracionales que reorganizan tu energía, activan la memoria del alma y expanden la conciencia.',
                     },
                     {
-                        title: 'Formación Terapéutica',
-                        description: 'Reiki (Usui Tibetano, Arcángel Rafael, Kuan Yin), Radiestesia y Radiónica, Sistema Arcturiano, Semente da Vida y más.',
+                        id: 'crystals',
+                        title: 'Cristales',
+                        description: 'Aliados naturales que potencian la sanación, equilibran tu campo energético y te conectan con tu sabiduría interior.',
                     },
                     {
-                        title: 'Retiros y Facilitación',
-                        description: 'Pionera en Retiros Estelares, guiando experiencias de reconexión, sanación y expansión en España, Portugal y otros países.',
+                        id: 'team',
+                        title: 'Mi Equipo',
+                        description: 'Trabajo anclado en mis Mentores y Equipo de Luz — Arcturus, Sirio y Pléyades — que sostienen, guían y amplían las frecuencias, trayendo protección, expansión y firmeza a todo el proceso.',
                     },
                 ],
             },
@@ -790,25 +808,34 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
                 description: 'My purpose is to help you remember your original essence, release blockages, raise your frequency, and reconnect with your soul mission, so you live with greater coherence, fullness, and expansion.',
                 button: 'Explore my experiences',
             },
-            path: {
-                eyebrow: 'MY PATH',
-                title: 'Education, experience, and journey',
+            frequencyBanner: {
+                title: 'Reconnect with your',
+                titleHighlight: 'Original Frequency and Abundance',
+                description: 'A path of reconnection, liberation, and expansion, integrating sound frequencies, sacred geometries, crystals, and the wisdom of my stellar team.',
+                button: 'Discover how',
+            },
+            workPillars: {
+                title: 'Pillars of Work',
                 items: [
                     {
-                        title: 'Academic Background',
-                        description: "Master's in Digital Humanities (Translation and Language Sciences) — University of Minho, Portugal.",
+                        id: 'sound',
+                        title: 'Sound Frequencies',
+                        description: 'Vibrations that harmonize your field, release blockages, and raise your frequency.',
                     },
                     {
-                        title: 'Professional Experience',
-                        description: 'Over 15 years in translation, editing, and multilingual communication (ES | PT | EN).',
+                        id: 'geometry',
+                        title: 'Sacred Geometries',
+                        description: 'Vibrational codes that reorganize your energy, activate soul memory, and expand consciousness.',
                     },
                     {
-                        title: 'Therapeutic Training',
-                        description: 'Reiki (Tibetan Usui, Archangel Raphael, Kuan Yin), Dowsing & Radionics, Arcturian System, Seed of Life, and more.',
+                        id: 'crystals',
+                        title: 'Crystals',
+                        description: 'Natural allies that amplify healing, balance your energetic field, and connect you to your inner wisdom.',
                     },
                     {
-                        title: 'Retreats & Facilitation',
-                        description: 'Pioneer in Stellar Retreats, guiding experiences of reconnection, healing, and expansion in Spain, Portugal, and other countries.',
+                        id: 'team',
+                        title: 'My Team',
+                        description: 'Work anchored in my Mentors and Team of Light — Arcturus, Sirius, and Pleiades — who sustain, guide, and amplify the frequencies, bringing protection, expansion, and strength to the entire process.',
                     },
                 ],
             },

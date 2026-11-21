@@ -2,20 +2,31 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   ArrowRight,
-  BookOpen,
-  Flower2,
-  GraduationCap,
-  Infinity as InfinityIcon,
+  Gem,
+  Hexagon,
+  Music,
   Sparkles,
 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
-const PATH_ICONS = [
-  <GraduationCap key="g" className="w-7 h-7 text-gold stroke-[1.5] shrink-0" />,
-  <BookOpen key="b" className="w-7 h-7 text-gold stroke-[1.5] shrink-0" />,
-  <Flower2 key="f" className="w-7 h-7 text-gold stroke-[1.5] shrink-0" />,
-  <InfinityIcon key="i" className="w-7 h-7 text-gold stroke-[1.5] shrink-0" />,
-];
+const PILLAR_MEDIA: Record<string, { image: string; icon: React.ReactNode }> = {
+  sound: {
+    image: '/assets/exp-reiki.jpg',
+    icon: <Music className="w-8 h-8 text-[#5b3c7d] stroke-[1.5]" />,
+  },
+  geometry: {
+    image: '/assets/exp-semente-vida.jpg',
+    icon: <Hexagon className="w-8 h-8 text-[#5b3c7d] stroke-[1.5]" />,
+  },
+  crystals: {
+    image: '/assets/exp-hero.jpg',
+    icon: <Gem className="w-8 h-8 text-[#5b3c7d] stroke-[1.5]" />,
+  },
+  team: {
+    image: '/assets/exp-arcturiano.jpg',
+    icon: <Sparkles className="w-8 h-8 text-[#5b3c7d] stroke-[1.5]" />,
+  },
+};
 
 const About: React.FC = () => {
   const { t } = useLanguage();
@@ -109,41 +120,88 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* My Path Section */}
-      <section className="bg-[#fdfcfe] py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#5b3c7d] mb-2">
-              {t.about.path.eyebrow}
-            </p>
-            <h2 className="text-3xl sm:text-4xl font-serif italic text-[#3b1566] font-normal">
-              {t.about.path.title}
-            </h2>
+      {/* Frequency Reconnection Banner + Work Pillars */}
+      <section className="relative bg-gradient-to-br from-[#eef5fa] via-[#f7f4fb] to-[#fdf6f4] overflow-hidden">
+        {/* Top Split Banner */}
+        <div className="relative">
+          <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[56%] h-72 sm:h-96 lg:h-auto relative">
+            <img
+              src="/images/fabiola-praia.jpg"
+              alt={t.about.frequencyBanner.titleHighlight}
+              className="w-full h-full object-cover object-center"
+            />
+            <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-[#f3f2f9] via-[#f3f2f9]/30 to-transparent" />
+            <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-[#f3f2f9] via-transparent to-transparent" />
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            <div className="lg:col-span-5">
-              <img
-                src="/assets/exp-hero.jpg"
-                alt={t.about.path.title}
-                className="w-full h-64 sm:h-72 object-cover rounded-2xl shadow-lg border border-purple-100/60"
-              />
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div className="lg:w-[50%] py-12 sm:py-16 lg:py-20 space-y-5">
+              <h2 className="text-3xl sm:text-4xl lg:text-[2.65rem] font-serif leading-[1.12] text-[#3b1566] font-normal">
+                {t.about.frequencyBanner.title}{' '}
+                <span className="italic block text-[#5b2a86]">
+                  {t.about.frequencyBanner.titleHighlight}
+                </span>
+              </h2>
+
+              <div className="w-24 h-px bg-gold/70" />
+
+              <p className="text-sm sm:text-base text-[#4a395c] leading-relaxed max-w-md">
+                {t.about.frequencyBanner.description}
+              </p>
+
+              <div className="pt-2">
+                <Link
+                  to="/servicos"
+                  className="inline-flex items-center gap-3 bg-gradient-to-r from-gold to-[#d169ab] text-white px-7 py-3 rounded-full text-sm font-medium shadow-lg shadow-gold/25 hover:shadow-xl hover:brightness-105 transition-all"
+                >
+                  <span>{t.about.frequencyBanner.button}</span>
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Work Pillars (4 Cards) */}
+        <div className="bg-[#fdfcfe]/90 border-t border-purple-100/70 py-14 sm:py-16 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center justify-center gap-6 mb-10 max-w-4xl mx-auto">
+              <div className="h-px bg-gold/40 flex-1" />
+              <h2 className="text-3xl sm:text-4xl font-serif italic text-[#3b1566] font-normal text-center">
+                {t.about.workPillars.title}
+              </h2>
+              <div className="h-px bg-gold/40 flex-1" />
             </div>
 
-            <div className="lg:col-span-7 space-y-5">
-              {t.about.path.items.map((item, idx) => (
-                <div key={item.title} className="flex items-start gap-4">
-                  <div className="mt-1">{PATH_ICONS[idx]}</div>
-                  <div>
-                    <h3 className="text-base sm:text-lg font-sans font-bold text-[#3b1566]">
-                      {item.title}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-[#4a395c] leading-relaxed mt-0.5">
-                      {item.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {t.about.workPillars.items.map((pillar) => {
+                const media = PILLAR_MEDIA[pillar.id] ?? PILLAR_MEDIA.sound;
+                return (
+                  <article
+                    key={pillar.id}
+                    className="bg-white rounded-3xl overflow-hidden shadow-md shadow-purple-900/5 border border-purple-100/80 flex flex-col justify-between text-center group hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
+                  >
+                    <div className="p-6 pb-4">
+                      <div className="flex justify-center mb-3">{media.icon}</div>
+                      <h3 className="text-xl font-serif font-bold text-[#3b1566] mb-2">
+                        {pillar.title}
+                      </h3>
+                      <p className="text-xs sm:text-[13px] text-[#4a395c] leading-relaxed">
+                        {pillar.description}
+                      </p>
+                    </div>
+
+                    <div className="h-36 w-full overflow-hidden relative mt-2">
+                      <img
+                        src={media.image}
+                        alt={pillar.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-x-0 top-0 h-8 bg-gradient-to-b from-white to-transparent pointer-events-none" />
+                    </div>
+                  </article>
+                );
+              })}
             </div>
           </div>
         </div>
