@@ -19,6 +19,7 @@ const Navbar: React.FC = () => {
   ];
 
   const isActive = (path: string) => location.pathname === path;
+  const whatsappBookingUrl = `https://wa.me/34607373858?text=${encodeURIComponent(t.navbar.bookSessionMessage)}`;
 
   return (
     <nav className="fixed w-full z-50 bg-white/60 backdrop-blur-xl border-b border-purple-100 shadow-sm">
@@ -67,12 +68,14 @@ const Navbar: React.FC = () => {
               </button>
             </div>
 
-            <Link
-              to="/servicos"
+            <a
+              href={whatsappBookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gradient-to-r from-purple-500 to-violet-600 text-white px-5 xl:px-7 py-2.5 xl:py-3 rounded-full text-sm xl:text-base font-medium whitespace-nowrap transition-all duration-300 shadow-md hover:shadow-purple-200/50"
             >
               {t.navbar.bookSession}
-            </Link>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -109,13 +112,15 @@ const Navbar: React.FC = () => {
             </Link>
           ))}
           <div className="pt-4 px-4">
-            <Link
-              to="/servicos"
+            <a
+              href={whatsappBookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
               className="block w-full text-center bg-gradient-to-r from-purple-500 to-violet-600 text-white py-3 rounded-full font-medium"
             >
               {t.navbar.bookSession}
-            </Link>
+            </a>
           </div>
         </div>
       )}

@@ -12,6 +12,7 @@ export const translations = {
             community: 'Comunidade',
             contact: 'Contacto',
             bookSession: 'Agendar Sessão',
+            bookSessionMessage: 'Olá Fabíola, gostaria de agendar uma sessão. Podes indicar-me os horários disponíveis?',
         },
         home: {
             heroTagline: 'Portal Fabíola Piovesan | Inuá',
@@ -395,6 +396,7 @@ Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representa
             community: 'Comunidad',
             contact: 'Contacto',
             bookSession: 'Reservar Sesión',
+            bookSessionMessage: 'Hola Fabíola, me gustaría reservar una sesión. ¿Podrías indicarme los horarios disponibles?',
         },
         home: {
             heroTagline: 'Portal Fabíola Piovesan | Inuá',
@@ -778,6 +780,7 @@ Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación 
             community: 'Community',
             contact: 'Contact',
             bookSession: 'Book Session',
+            bookSessionMessage: 'Hello Fabíola, I would like to book a session. Could you let me know your available times?',
         },
         home: {
             heroTagline: 'Fabíola Piovesan | Inuá Portal',
