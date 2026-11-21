@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
             </div>
 
             <div className="bg-purple-50/50 p-8 rounded-[2.5rem] border border-purple-100/50">
-              <h4 className="text-purple-900 font-bold mb-6 uppercase tracking-widest text-xs">Siga nossa jornada:</h4>
+              <h4 className="text-purple-900 font-bold mb-6 uppercase tracking-widest text-xs">Siga a nossa jornada:</h4>
               <div className="flex space-x-8">
                 <a href="https://www.instagram.com/fabiola.inua/" target="_blank" rel="noopener noreferrer" className="flex items-center text-purple-700/60 hover:text-purple-400 transition-colors">
                   <Instagram size={24} className="mr-3" /> @fabiola.inua

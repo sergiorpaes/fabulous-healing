@@ -18,14 +18,14 @@ export const translations = {
             heroTitle: 'Sentes que algo te impede de',
             heroTitleHighlight: 'florescer?',
             heroSubtitleTitle: 'A experiência vibracional é a chave',
-            heroSubtitleText: 'Não esperes que a vida se torne insuportável. Se sentes que precisa de mudança,',
+            heroSubtitleText: 'Não esperes que a vida se torne insuportável. Se sentes que precisas de mudança,',
             heroSubtitleHighlight: 'agora é o momento!',
             heroCtaPrimary: 'Iniciar Evolução',
             heroCtaSecondary: 'Conhece a Fabíola',
             frequencySection: {
                 title: 'Reconecta-te com a tua',
                 titleHighlight: 'Frequência Original',
-                description: 'Trabalhando a vibração, o campo atrator de tudo na vida, é possível dissolver bloqueios, romper com energias negativas, padrões e crenças, e abrir caminhos para possibilidades infinitas na vida. O teu campo eletromagnético – aura – é tratado para atrair o melhor.',
+                description: 'Ao trabalhar a vibração, o campo atrator de tudo na vida, é possível dissolver bloqueios, romper com energias negativas, padrões e crenças, e abrir caminhos para possibilidades infinitas na vida. O teu campo eletromagnético — aura — é tratado para atrair o melhor.',
                 videoBadge: 'Em breve: vídeo da sessão',
             },
             philosophyBadge: 'Conecta à tua luz original',
@@ -52,13 +52,13 @@ export const translations = {
             badge: 'A Nossa Guardiã',
             title: 'Luz e',
             titleHighlight: 'Propósito',
-            bio1: 'Eu sou Fabíola, e minha missão é ser o canal para que pessoas reencontrem e sustentam uma frequência mais elevada. Fabíola Piovesan | Inuá nasceu da necessidade de contribuir na jornada da Nova Terra, curando feridas emocionais para que almas possam florescer livres no seu potencial máximo.',
-            bio2: 'Através da minha própria jornada de despertar, aprendi que a verdadeira cura acontece quando trabalhamos nosso interno para vibrar o que desejamos no externo. Meu trabalho como canal serve de chave para o portal que já existe dentro de ti.',
+            bio1: 'Eu sou a Fabíola, e a minha missão é ser o canal para que as pessoas reencontrem e sustentem uma frequência mais elevada. Fabíola Piovesan | Inuá nasceu da necessidade de contribuir para a jornada da Nova Terra, curando feridas emocionais para que as almas possam florescer livres no seu potencial máximo.',
+            bio2: 'Através da minha própria jornada de despertar, aprendi que a verdadeira cura acontece quando trabalhamos o nosso interior para vibrar o que desejamos no exterior. O meu trabalho como canal serve de chave para o portal que já existe dentro de ti.',
             purpose: {
-                eyebrow: 'MEU PROPÓSITO',
-                title: 'Integrar céu e terra na sua vida cotidiana',
-                description: 'O meu propósito é ajudar você a recordar a sua essência original, liberar bloqueios, elevar a sua frequência e reconectar com a sua missão de alma, para que viva com mais coerência, plenitude e expansão.',
-                button: 'Conhecer minhas experiências',
+                eyebrow: 'O MEU PROPÓSITO',
+                title: 'Integrar céu e terra na tua vida quotidiana',
+                description: 'O meu propósito é ajudar-te a recordar a tua essência original, libertar bloqueios, elevar a tua frequência e reconectar com a tua missão de alma, para que vivas com mais coerência, plenitude e expansão.',
+                button: 'Conhecer as minhas experiências',
             },
             frequencyBanner: {
                 title: 'Reconecta-te com a tua',
@@ -86,7 +86,7 @@ export const translations = {
                     },
                     {
                         id: 'team',
-                        title: 'Minha Equipe',
+                        title: 'A Minha Equipa',
                         description: 'Trabalho ancorado nos meus Mentores e Equipa de Luz — Arcturus, Sírius e Plêiades — que sustentam, guiam e ampliam as frequências, trazendo proteção, expansão e firmeza a todo o processo.',
                     },
                 ],
@@ -115,8 +115,8 @@ export const translations = {
         services: {
             eyebrow: 'EXPERIÊNCIAS',
             title: 'Terapias, ativações e leituras',
-            titleHighlight: 'para a sua expansão',
-            subtitle: 'Acompanhamentos vibracionais, energéticos e canalizados para limpar, harmonizar, ativar a sua frequência original e apoiar o seu processo de despertar e expansão de consciência.',
+            titleHighlight: 'para a tua expansão',
+            subtitle: 'Acompanhamentos vibracionais, energéticos e canalizados para limpar, harmonizar, ativar a tua frequência original e apoiar o teu processo de despertar e expansão de consciência.',
             pillars: [
                 'Limpeza e harmonização energética',
                 'Ativação de códigos e memórias',
@@ -168,8 +168,8 @@ export const translations = {
             ],
             bottomCta: {
                 eyebrow: 'ACOMPANHAMENTO PERSONALIZADO',
-                title: 'Qual experiência é para você?',
-                description: 'Cada processo é único. Acompanho você para identificar a experiência mais adequada ao seu momento, intenção e caminho de expansão.',
+                title: 'Que experiência é para ti?',
+                description: 'Cada processo é único. Acompanho-te para identificar a experiência mais adequada ao teu momento, intenção e caminho de expansão.',
                 button: 'Agendar uma orientação',
             },
         },
@@ -178,7 +178,7 @@ export const translations = {
             subtitle: 'Formações de Reiki e Sistemas de Cura',
             description: 'Formações completas e vivenciais para terapeutas e pessoas que desejam expandir o seu caminho de serviço, cura e consciência.',
             features: [
-                { title: '100% Online', sub: 'No conforto da sua casa' },
+                { title: '100% Online', sub: 'No conforto da tua casa' },
                 { title: 'Diploma', sub: 'de Formação' },
                 { title: 'Acompanhamento', sub: 'Vitalício' },
                 { title: 'Mentoria e', sub: 'Suporte Contínuo' },
@@ -232,17 +232,17 @@ export const translations = {
                 description: 'Formação completa neste sistema de cura canalizado, que atua nos corpos físico, emocional, mental e espiritual, facilitando a purificação, o reequilíbrio e a expansão multidimensional.',
             },
             bottomCta: {
-                question: 'Sente o chamado para se formar em alguma destas linhas?',
-                button: 'Conheça mais e reserve a sua vaga',
+                question: 'Sentes o chamado para te formares em alguma destas linhas?',
+                button: 'Conhece mais e reserva a tua vaga',
             },
         },
         products: {
             tagline: 'Ferramentas de Expansão',
             title: 'Produtos',
             titleHighlight: 'Digitais',
-            subtitle: 'Leve a frequência da cura para o seu dia a dia.',
+            subtitle: 'Leva a frequência da cura para o teu dia a dia.',
             cta: 'Adquirir',
-            youtubeCta: 'Assistir no YouTube',
+            youtubeCta: 'Ver no YouTube',
             items: {
                 meditation: {
                     title: '21 Mantras falados: vida fabulosa.',
@@ -254,7 +254,7 @@ export const translations = {
                 },
                 audio: {
                     title: 'Frequências para o dia a dia',
-                    description: 'Frequências relaxantes, meditativas e angélicas. Confere agora!',
+                    description: 'Frequências relaxantes, meditativas e angélicas. Confere já!',
                     youtubeLink: 'https://www.youtube.com/@fabiola_inua',
                 },
             },
@@ -345,7 +345,7 @@ export const translations = {
             privacy: 'Política de Privacidade',
             terms: 'Termos de Utilização',
             community: 'Comunidade',
-            connect: 'Conecte-se',
+            connect: 'Conecta-te',
             rights: '© 2026 Fabíola Piovesan | Inuá. Todos os direitos reservados.',
             developedBy: 'Desenvolvido com intenção e amor.',
             legal: {
@@ -356,19 +356,19 @@ Solicitamos informações pessoais apenas quando realmente precisamos delas para
 
 Apenas retemos as informações recolhidas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemo-los dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
 
-Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.
+Não partilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.
 
 O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controlo sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade pelas suas respectivas políticas de privacidade.
 
-Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.
+É livre de recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.
 
-O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se tiver alguma dúvida sobre como lidamos com dados do utilizador e informações pessoais, entre em contacto connosco.`,
+O uso continuado do nosso site será considerado como aceitação das nossas práticas em torno de privacidade e informações pessoais. Se tiver alguma dúvida sobre como lidamos com dados do utilizador e informações pessoais, entre em contacto connosco.`,
                 termsTitle: 'Termos de Utilização',
                 termsContent: `1. Termos
 Ao aceder ao site Fabíola Piovesan | Inuá, concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se não concordar com algum destes termos, está proibido de usar ou aceder a este site. Os materiais contidos neste site são protegidos pelas leis de direitos de autor e marcas comerciais aplicáveis.
 
 2. Uso de Licença
-É concedida permissão para descarregar temporariamente uma cópia dos materiais (informações ou software) no site Fabíola Piovesan | Inuá , apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode:
+É concedida permissão para descarregar temporariamente uma cópia dos materiais (informações ou software) no site Fabíola Piovesan | Inuá, apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, não pode:
 
 - modificar ou copiar os materiais;
 - usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial);
@@ -376,7 +376,7 @@ Ao aceder ao site Fabíola Piovesan | Inuá, concorda em cumprir estes termos de
 - remover quaisquer direitos de autor ou outras notações de propriedade dos materiais; ou
 - transferir os materiais para outra pessoa ou 'espelhe' os materiais em qualquer outro servidor.
 
-Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por Fabíola Piovesan | Inuá a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais descarregados em sua posse, seja em formato eletrónico ou impresso.
+Esta licença será automaticamente rescindida se violar alguma dessas restrições e poderá ser rescindida por Fabíola Piovesan | Inuá a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, deve apagar todos os materiais descarregados em sua posse, seja em formato eletrónico ou impresso.
 
 3. Isenção de responsabilidade
 Os materiais no site da Fabíola Piovesan | Inuá são fornecidos 'como estão'. Fabíola Piovesan | Inuá não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.
