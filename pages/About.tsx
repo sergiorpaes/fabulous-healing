@@ -134,7 +134,7 @@ const About: React.FC = () => {
             <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-[#f3f2f9] via-transparent to-transparent" />
           </div>
 
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="lg:w-[50%] py-12 sm:py-16 lg:py-20 space-y-5">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.65rem] font-serif leading-[1.12] text-[#3b1566] font-normal">
                 {t.about.frequencyBanner.title}{' '}
