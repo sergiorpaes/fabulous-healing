@@ -13,7 +13,7 @@ export const translations = {
             bookSession: 'Agendar Sessão',
         },
         home: {
-            heroTagline: 'Portal Fabulous Healing',
+            heroTagline: 'Portal Fabíola Piovesan | Inuá',
             heroTitle: 'Sentes que algo te impede de',
             heroTitleHighlight: 'florescer?',
             heroSubtitleTitle: 'A terapia vibracional é a chave',
@@ -39,13 +39,13 @@ export const translations = {
             featuredCta: 'Descobre como funciona',
         },
         about: {
-            imageAlt: 'Fabíola - Fabulous Healing',
+            imageAlt: 'Fabíola Piovesan | Inuá',
             name: 'Fabíola',
             role: 'Guardiã de Frequências',
             badge: 'A Nossa Guardiã',
             title: 'Luz e',
             titleHighlight: 'Propósito',
-            bio1: 'Eu sou Fabíola, e minha missão é ser o canal para que pessoas reencontrem e sustentam uma frequência mais elevada. Fabulous Healing nasceu da necessidade de contribuir na jornada da Nova Terra, curando feridas emocionais para que almas possam florescer livres no seu potencial máximo.',
+            bio1: 'Eu sou Fabíola, e minha missão é ser o canal para que pessoas reencontrem e sustentam uma frequência mais elevada. Fabíola Piovesan | Inuá nasceu da necessidade de contribuir na jornada da Nova Terra, curando feridas emocionais para que almas possam florescer livres no seu potencial máximo.',
             bio2: 'Através da minha própria jornada de despertar, aprendi que a verdadeira cura acontece quando trabalhamos nosso interno para vibrar o que desejamos no externo. Meu trabalho como canal serve de chave para o portal que já existe dentro de ti.',
             stats: {
                 experience: { value: '15+', label: 'Anos de Prática' },
@@ -206,11 +206,11 @@ export const translations = {
             terms: 'Termos de Utilização',
             community: 'Comunidade',
             connect: 'Conecte-se',
-            rights: '© 2026 Fabulous Healing. Todos os direitos reservados.',
+            rights: '© 2026 Fabíola Piovesan | Inuá. Todos os direitos reservados.',
             developedBy: 'Desenvolvido com intenção e amor.',
             legal: {
                 privacyTitle: 'Política de Privacidade',
-                privacyContent: `A sua privacidade é importante para nós. É política do Fabulous Healing respeitar a sua privacidade em relação a qualquer informação sua que possamos recolher no site Fabulous Healing, e outros sites que possuímos e operamos.
+                privacyContent: `A sua privacidade é importante para nós. É política do Fabíola Piovesan | Inuá respeitar a sua privacidade em relação a qualquer informação sua que possamos recolher no site Fabíola Piovesan | Inuá, e outros sites que possuímos e operamos.
 
 Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos a recolher e como será usado.
 
@@ -225,22 +225,22 @@ Você é livre para recusar a nossa solicitação de informações pessoais, ent
 O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se tiver alguma dúvida sobre como lidamos com dados do utilizador e informações pessoais, entre em contacto connosco.`,
                 termsTitle: 'Termos de Utilização',
                 termsContent: `1. Termos
-Ao aceder ao site Fabulous Healing, concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se não concordar com algum destes termos, está proibido de usar ou aceder a este site. Os materiais contidos neste site são protegidos pelas leis de direitos de autor e marcas comerciais aplicáveis.
+Ao aceder ao site Fabíola Piovesan | Inuá, concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se não concordar com algum destes termos, está proibido de usar ou aceder a este site. Os materiais contidos neste site são protegidos pelas leis de direitos de autor e marcas comerciais aplicáveis.
 
 2. Uso de Licença
-É concedida permissão para descarregar temporariamente uma cópia dos materiais (informações ou software) no site Fabulous Healing , apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode:
+É concedida permissão para descarregar temporariamente uma cópia dos materiais (informações ou software) no site Fabíola Piovesan | Inuá , apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode:
 
 - modificar ou copiar os materiais;
 - usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial);
-- tentar descompilar ou fazer engenharia reversa de qualquer software contido no site Fabulous Healing;
+- tentar descompilar ou fazer engenharia reversa de qualquer software contido no site Fabíola Piovesan | Inuá;
 - remover quaisquer direitos de autor ou outras notações de propriedade dos materiais; ou
 - transferir os materiais para outra pessoa ou 'espelhe' os materiais em qualquer outro servidor.
 
-Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por Fabulous Healing a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais descarregados em sua posse, seja em formato eletrónico ou impresso.
+Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por Fabíola Piovesan | Inuá a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais descarregados em sua posse, seja em formato eletrónico ou impresso.
 
 3. Isenção de responsabilidade
-Os materiais no site da Fabulous Healing são fornecidos 'como estão'. Fabulous Healing não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.
-Além disso, o Fabulous Healing não garante ou faz qualquer representação relativa à precisão, aos resultados prováveis ou à confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a este site.`,
+Os materiais no site da Fabíola Piovesan | Inuá são fornecidos 'como estão'. Fabíola Piovesan | Inuá não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.
+Além disso, o Fabíola Piovesan | Inuá não garante ou faz qualquer representação relativa à precisão, aos resultados prováveis ou à confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a este site.`,
             },
         },
     },
@@ -256,7 +256,7 @@ Além disso, o Fabulous Healing não garante ou faz qualquer representação rel
             bookSession: 'Reservar Sesión',
         },
         home: {
-            heroTagline: 'Portal Fabulous Healing',
+            heroTagline: 'Portal Fabíola Piovesan | Inuá',
             heroTitle: '¿Sientes que algo te impide',
             heroTitleHighlight: 'florecer?',
             heroSubtitleTitle: 'La terapia vibracional es la clave',
@@ -282,13 +282,13 @@ Além disso, o Fabulous Healing não garante ou faz qualquer representação rel
             featuredCta: 'Descubre cómo funciona',
         },
         about: {
-            imageAlt: 'Fabíola - Fabulous Healing',
+            imageAlt: 'Fabíola Piovesan | Inuá',
             name: 'Fabíola',
             role: 'Guardiana de Frecuencias',
             badge: 'Nuestra Guardiana',
             title: 'Luz y',
             titleHighlight: 'Propósito',
-            bio1: 'Soy Fabíola, y mi misión es ser el canal para que reencuentres tu frecuencia más elevada. Fabulous Healing nació de la necesidad de curar las raíces para que el alma pueda finalmente florecer libre de ataduras ancestrales.',
+            bio1: 'Soy Fabíola, y mi misión es ser el canal para que reencuentres tu frecuencia más elevada. Fabíola Piovesan | Inuá nació de la necesidad de curar las raíces para que el alma pueda finalmente florecer libre de ataduras ancestrales.',
             bio2: 'A través de mi propio viaje de despertar, aprendí que la verdadera curación ocurre cuando alineamos la biología con la vibración universal. El uso de cristales maestros, la radiestesia y la geometría sagrada son solo las llaves para el portal que ya existe dentro de ti.',
             stats: {
                 experience: { value: '15+', label: 'Años de Práctica' },
@@ -449,11 +449,11 @@ Além disso, o Fabulous Healing não garante ou faz qualquer representação rel
             terms: 'Términos de Uso',
             community: 'Comunidad',
             connect: 'Conéctate',
-            rights: '© 2026 Fabulous Healing. Todos los derechos reservados.',
+            rights: '© 2026 Fabíola Piovesan | Inuá. Todos los derechos reservados.',
             developedBy: 'Desarrollado con intención y amor.',
             legal: {
                 privacyTitle: 'Política de Privacidad',
-                privacyContent: `Su privacidad es importante para nosotros. Es política de Fabulous Healing respetar su privacidad con respecto a cualquier información que podamos recopilar de usted a través de nuestro sitio web, Fabulous Healing, y otros sitios que poseemos y operamos.
+                privacyContent: `Su privacidad es importante para nosotros. Es política de Fabíola Piovesan | Inuá respetar su privacidad con respecto a cualquier información que podamos recopilar de usted a través de nuestro sitio web, Fabíola Piovesan | Inuá, y otros sitios que poseemos y operamos.
 
 Solo solicitamos información personal cuando realmente la necesitamos para brindarle un servicio. Lo hacemos por medios justos y legales, con su conocimiento y consentimiento. También le informamos por qué la recopilamos y cómo se utilizará.
 
@@ -468,22 +468,22 @@ Usted es libre de rechazar nuestra solicitud de su información personal, entend
 El uso continuado de nuestro sitio web se considerará como aceptación de nuestras prácticas en torno a la privacidad y la información personal. Si tiene alguna pregunta sobre cómo manejamos los datos de los usuarios y la información personal, no dude en contactarnos.`,
                 termsTitle: 'Términos de Uso',
                 termsContent: `1. Términos
-Al acceder al sitio web en Fabulous Healing, usted acepta estar vinculado por estos términos de servicio, todas las leyes y regulaciones aplicables, y acepta que es responsable del cumplimiento de las leyes locales aplicables. Si no está de acuerdo con alguno de estos términos, tiene prohibido usar o acceder a este sitio. Los materiales contenidos en este sitio web están protegidos por las leyes de derechos de autor y marcas comerciales aplicables.
+Al acceder al sitio web en Fabíola Piovesan | Inuá, usted acepta estar vinculado por estos términos de servicio, todas las leyes y regulaciones aplicables, y acepta que es responsable del cumplimiento de las leyes locales aplicables. Si no está de acuerdo con alguno de estos términos, tiene prohibido usar o acceder a este sitio. Los materiales contenidos en este sitio web están protegidos por las leyes de derechos de autor y marcas comerciales aplicables.
 
 2. Licencia de uso
-Se concede permiso para descargar temporalmente una copia de los materiales (información o software) en el sitio web de Fabulous Healing solo para visualización transitoria personal y no comercial. Esta es la concesión de una licencia, no una transferencia de título, y bajo esta licencia usted no puede:
+Se concede permiso para descargar temporalmente una copia de los materiales (información o software) en el sitio web de Fabíola Piovesan | Inuá solo para visualización transitoria personal y no comercial. Esta es la concesión de una licencia, no una transferencia de título, y bajo esta licencia usted no puede:
 
 - modificar o copiar los materiales;
 - usar los materiales para cualquier propósito comercial, o para cualquier exhibición pública (comercial o no comercial);
-- intentar descompilar o realizar ingeniería inversa de cualquier software contenido en el sitio web de Fabulous Healing;
+- intentar descompilar o realizar ingeniería inversa de cualquier software contenido en el sitio web de Fabíola Piovesan | Inuá;
 - eliminar cualquier derecho de autor u otras notaciones de propiedad de los materiales; o
 - transferir los materiales a otra persona o "espejar" los materiales en cualquier otro servidor.
 
-Esta licencia terminará automáticamente si usted viola cualquiera de estas restricciones y puede ser terminada por Fabulous Healing en cualquier momento. Al terminar su visualización de estos materiales o al terminar esta licencia, debe destruir cualquier material descargado en su posesión, ya sea en formato electrónico o impreso.
+Esta licencia terminará automáticamente si usted viola cualquiera de estas restricciones y puede ser terminada por Fabíola Piovesan | Inuá en cualquier momento. Al terminar su visualización de estos materiales o al terminar esta licencia, debe destruir cualquier material descargado en su posesión, ya sea en formato electrónico o impreso.
 
 3. Descargo de responsabilidad
-Los materiales en el sitio web de Fabulous Healing se proporcionan "tal cual". Fabulous Healing no ofrece garantías, expresas o implícitas, y por la presente renuncia y niega todas las otras garantías incluyendo, sin limitación, garantías implícitas o condiciones de comerciabilidad, idoneidad para un propósito particular, o no infracción de propiedad intelectual u otra violación de derechos.
-Además, Fabulous Healing no garantiza ni hace ninguna representación con respecto a la precisión, los resultados probables, o la confiabilidad del uso de los materiales en su sitio web o de otra manera relacionado con dichos materiales o en cualquier sitio vinculado a este sitio.`,
+Los materiales en el sitio web de Fabíola Piovesan | Inuá se proporcionan "tal cual". Fabíola Piovesan | Inuá no ofrece garantías, expresas o implícitas, y por la presente renuncia y niega todas las otras garantías incluyendo, sin limitación, garantías implícitas o condiciones de comerciabilidad, idoneidad para un propósito particular, o no infracción de propiedad intelectual u otra violación de derechos.
+Además, Fabíola Piovesan | Inuá no garantiza ni hace ninguna representación con respecto a la precisión, los resultados probables, o la confiabilidad del uso de los materiales en su sitio web o de otra manera relacionado con dichos materiales o en cualquier sitio vinculado a este sitio.`,
             },
         },
     },
@@ -499,7 +499,7 @@ Además, Fabulous Healing no garantiza ni hace ninguna representación con respe
             bookSession: 'Book Session',
         },
         home: {
-            heroTagline: 'Fabulous Healing Portal',
+            heroTagline: 'Fabíola Piovesan | Inuá Portal',
             heroTitle: 'Do you feel something stopping you from',
             heroTitleHighlight: 'blooming?',
             heroSubtitleTitle: 'Vibrational therapy is the key',
@@ -525,13 +525,13 @@ Además, Fabulous Healing no garantiza ni hace ninguna representación con respe
             featuredCta: 'Learn how it works',
         },
         about: {
-            imageAlt: 'Fabíola - Fabulous Healing',
+            imageAlt: 'Fabíola Piovesan | Inuá',
             name: 'Fabíola',
             role: 'Frequency Guardian',
             badge: 'Our Guardian',
             title: 'Light and',
             titleHighlight: 'Purpose',
-            bio1: 'I am Fabíola, and my mission is to be the channel for you to rediscover your highest frequency. Fabulous Healing was born from the need to heal the roots so that the soul can finally flourish free from ancestral ties.',
+            bio1: 'I am Fabíola, and my mission is to be the channel for you to rediscover your highest frequency. Fabíola Piovesan | Inuá was born from the need to heal the roots so that the soul can finally flourish free from ancestral ties.',
             bio2: 'Through my own awakening journey, I learned that true healing happens when we align biology with universal vibration. The use of master crystals, dowsing, and sacred geometry are just the keys to the portal that already exists within you.',
             stats: {
                 experience: { value: '15+', label: 'Years of Practice' },
@@ -692,11 +692,11 @@ Además, Fabulous Healing no garantiza ni hace ninguna representación con respe
             terms: 'Terms of Use',
             community: 'Community',
             connect: 'Connect',
-            rights: '© 2026 Fabulous Healing. All rights reserved.',
+            rights: '© 2026 Fabíola Piovesan | Inuá. All rights reserved.',
             developedBy: 'Developed with intention and love.',
             legal: {
                 privacyTitle: 'Privacy Policy',
-                privacyContent: `Your privacy is important to us. It is Fabulous Healing policy to respect your privacy regarding any information we may collect from you across our website, Fabulous Healing, and other sites we own and operate.
+                privacyContent: `Your privacy is important to us. It is Fabíola Piovesan | Inuá policy to respect your privacy regarding any information we may collect from you across our website, Fabíola Piovesan | Inuá, and other sites we own and operate.
 
 We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
 
@@ -711,22 +711,22 @@ You are free to refuse our request for your personal information, with the under
 Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.`,
                 termsTitle: 'Terms of Use',
                 termsContent: `1. Terms
-By accessing the website at Fabulous Healing, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
+By accessing the website at Fabíola Piovesan | Inuá, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
 
 2. Use License
-Permission is granted to temporarily download one copy of the materials (information or software) on Fabulous Healing website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+Permission is granted to temporarily download one copy of the materials (information or software) on Fabíola Piovesan | Inuá website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
 
 - modify or copy the materials;
 - use the materials for any commercial purpose, or for any public display (commercial or non-commercial);
-- attempt to decompile or reverse engineer any software contained on Fabulous Healing website;
+- attempt to decompile or reverse engineer any software contained on Fabíola Piovesan | Inuá website;
 - remove any copyright or other proprietary notations from the materials; or
 - transfer the materials to another person or "mirror" the materials on any other server.
 
-This license shall automatically terminate if you violate any of these restrictions and may be terminated by Fabulous Healing at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
+This license shall automatically terminate if you violate any of these restrictions and may be terminated by Fabíola Piovesan | Inuá at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
 
 3. Disclaimer
-The materials on Fabulous Healing website are provided on an 'as is' basis. Fabulous Healing makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
-Further, Fabulous Healing does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.`,
+The materials on Fabíola Piovesan | Inuá website are provided on an 'as is' basis. Fabíola Piovesan | Inuá makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+Further, Fabíola Piovesan | Inuá does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.`,
             },
         },
     },

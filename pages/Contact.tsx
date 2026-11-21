@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
                   <Instagram size={24} className="mr-3" /> @fabuloushealing
                 </a>
                 <a href="#" className="flex items-center text-purple-700/60 hover:text-purple-400 transition-colors">
-                  <Youtube size={24} className="mr-3" /> Fabulous Healing TV
+                  <Youtube size={24} className="mr-3" /> Fabíola Piovesan | Inuá
                 </a>
               </div>
             </div>

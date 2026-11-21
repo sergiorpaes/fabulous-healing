@@ -16,9 +16,9 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-6">
-              <img src="/logo.png" alt="Fabulous Healing" className="h-12 w-auto object-contain" />
+              <img src="/logo.png" alt="Fabíola Piovesan | Inuá" className="h-12 w-auto object-contain" />
               <span className="text-xl font-serif font-bold tracking-tight text-deep-violet">
-                Fabulous <span className="text-gold">Healing</span>
+                Fabíola Piovesan <span className="text-gold">| Inuá</span>
               </span>
             </Link>
             <p className="text-purple-800/60 text-sm leading-relaxed">
