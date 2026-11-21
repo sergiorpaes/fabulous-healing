@@ -123,12 +123,12 @@ const About: React.FC = () => {
       {/* Frequency Reconnection Banner + Work Pillars */}
       <section className="relative bg-gradient-to-br from-[#eef5fa] via-[#f7f4fb] to-[#fdf6f4] overflow-hidden">
         {/* Top Split Banner */}
-        <div className="relative">
-          <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[56%] h-72 sm:h-96 lg:h-auto relative">
+        <div className="relative lg:min-h-[480px] flex flex-col lg:flex-row lg:items-center">
+          <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[48%] h-96 sm:h-[28rem] lg:h-full relative">
             <img
               src="/images/fabiola-praia.jpg"
               alt={t.about.frequencyBanner.titleHighlight}
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover object-top"
             />
             <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-[#f3f2f9] via-[#f3f2f9]/30 to-transparent" />
             <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-[#f3f2f9] via-transparent to-transparent" />
