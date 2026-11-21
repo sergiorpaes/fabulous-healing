@@ -33,7 +33,7 @@ const Services: React.FC = () => {
     <div className="animate-fadeIn pb-24">
       <section className="py-32 bg-gradient-to-r from-purple-800 to-violet-900 text-center text-white relative">
         <div className="max-w-4xl mx-auto px-4 relative z-10">
-          <h1 className="text-6xl md:text-8xl font-serif mb-8 italic text-glow">{t.services.tagline}</h1>
+          <h1 className="text-6xl md:text-8xl font-serif mb-8 italic text-glow text-white">{t.services.tagline}</h1>
           <p className="text-xl text-purple-200 font-light tracking-[0.3em] uppercase">{t.services.subtitle}</p>
         </div>
         <div className="absolute inset-0 bg-healing-aqua/10 pointer-events-none"></div>
