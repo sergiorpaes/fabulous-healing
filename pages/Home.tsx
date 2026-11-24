@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   ArrowRight,
@@ -13,6 +13,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 const Home: React.FC = () => {
   const { t } = useLanguage();
+  const [isPlayingVideo, setIsPlayingVideo] = useState(false);
 
   const pillars = [
     {
@@ -133,22 +134,36 @@ const Home: React.FC = () => {
               </p>
             </div>
 
-            {/* Video Container (ready for video upload) */}
+            {/* Video Container */}
             <div className="lg:col-span-6">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-purple-900/15 border-4 border-white bg-[#2c0e52] aspect-video group">
-                <img
-                  src="/assets/exp-cta.jpg"
-                  alt={t.home.frequencySection.titleHighlight}
-                  className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-[#2c0e52]/25 flex flex-col items-center justify-center">
-                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/30 backdrop-blur-md border-2 border-white flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
-                    <Play className="w-7 h-7 sm:w-8 sm:h-8 text-white fill-white ml-1" />
-                  </div>
-                  <span className="mt-3 px-4 py-1 rounded-full bg-black/35 backdrop-blur-sm text-white text-[11px] tracking-wider uppercase font-medium">
-                    {t.home.frequencySection.videoBadge}
-                  </span>
-                </div>
+                {isPlayingVideo ? (
+                  <video
+                    src="/assets/session-video.mp4"
+                    controls
+                    autoPlay
+                    playsInline
+                    className="w-full h-full object-contain bg-black"
+                  />
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => setIsPlayingVideo(true)}
+                    aria-label={t.home.frequencySection.titleHighlight}
+                    className="relative w-full h-full block cursor-pointer focus:outline-none"
+                  >
+                    <img
+                      src="/assets/exp-cta.jpg"
+                      alt={t.home.frequencySection.titleHighlight}
+                      className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-[#2c0e52]/25 flex flex-col items-center justify-center">
+                      <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/30 backdrop-blur-md border-2 border-white flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+                        <Play className="w-7 h-7 sm:w-8 sm:h-8 text-white fill-white ml-1" />
+                      </div>
+                    </div>
+                  </button>
+                )}
               </div>
             </div>
           </div>
