@@ -18,9 +18,31 @@
   --font-sans: "Montserrat", sans-serif;
 
   --animate-fadeIn: fadeIn 1s ease-out forwards;
+  --animate-backdropIn: backdropIn 0.25s ease-out forwards;
+  --animate-modalIn: modalIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-float: float 10s ease-in-out infinite;
   --animate-pulse-glow: pulse-glow 8s ease-in-out infinite;
   --animate-gradientShift: gradientShift 15s ease infinite;
+
+  @keyframes backdropIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes modalIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.92) translateY(12px);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
 
   @keyframes fadeIn {
     0% {
