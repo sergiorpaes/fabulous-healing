@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Link } from 'react-router-dom';
 import {
   ArrowRight,
@@ -15,6 +16,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 const Home: React.FC = () => {
   const { t } = useLanguage();
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
+  const [videoAspect, setVideoAspect] = useState<number>(9 / 16);
 
   useEffect(() => {
     if (!isVideoModalOpen) return;
@@ -197,40 +199,52 @@ const Home: React.FC = () => {
 
       </section>
 
-      {/* Video Popup Modal */}
-      {isVideoModalOpen && (
-        <div
-          role="dialog"
-          aria-modal="true"
-          aria-label={t.home.frequencySection.titleHighlight}
-          onClick={() => setIsVideoModalOpen(false)}
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-[#180630]/80 backdrop-blur-md animate-[backdropIn_0.25s_ease-out_forwards]"
-        >
+      {/* Video Popup Modal (rendered in document.body to bypass .animate-fadeIn transform context) */}
+      {isVideoModalOpen &&
+        createPortal(
           <div
-            onClick={(e) => e.stopPropagation()}
-            className="relative max-w-4xl max-h-[90vh] flex flex-col items-center animate-[modalIn_0.35s_cubic-bezier(0.16,1,0.3,1)_forwards]"
+            role="dialog"
+            aria-modal="true"
+            aria-label={t.home.frequencySection.titleHighlight}
+            onClick={() => setIsVideoModalOpen(false)}
+            className="fixed inset-0 z-[9999] flex items-center justify-center p-4 sm:p-6 bg-[#180630]/85 backdrop-blur-md animate-[backdropIn_0.25s_ease-out_forwards]"
           >
-            <button
-              type="button"
-              onClick={() => setIsVideoModalOpen(false)}
-              aria-label="Close video"
-              className="absolute -top-4 -right-4 z-10 w-10 h-10 rounded-full bg-[#2c0e52]/95 hover:bg-[#4a1c82] text-white border border-gold/60 flex items-center justify-center shadow-xl backdrop-blur-sm transition-all duration-200 hover:scale-110 cursor-pointer"
+            <div
+              onClick={(e) => e.stopPropagation()}
+              style={{
+                width: `min(90vw, calc(86vh * ${videoAspect}), 1100px)`,
+                aspectRatio: `${videoAspect}`,
+              }}
+              className="relative flex flex-col items-center animate-[modalIn_0.35s_cubic-bezier(0.16,1,0.3,1)_forwards]"
             >
-              <X className="w-5 h-5" />
-            </button>
+              <button
+                type="button"
+                onClick={() => setIsVideoModalOpen(false)}
+                aria-label="Close video"
+                className="absolute -top-4 -right-4 z-10 w-11 h-11 rounded-full bg-[#2c0e52]/95 hover:bg-[#4a1c82] text-white border border-gold/60 flex items-center justify-center shadow-xl backdrop-blur-sm transition-all duration-200 hover:scale-110 cursor-pointer"
+              >
+                <X className="w-5 h-5" />
+              </button>
 
-            <div className="relative rounded-2xl overflow-hidden border-2 border-white/30 shadow-[0_25px_70px_-15px_rgba(167,139,250,0.45)] bg-[#140526]">
-              <video
-                src="/assets/session-video.mp4"
-                controls
-                autoPlay
-                playsInline
-                className="max-h-[82vh] max-w-full w-auto h-auto block"
-              />
+              <div className="w-full h-full rounded-2xl overflow-hidden border-2 border-white/30 shadow-[0_25px_70px_-15px_rgba(167,139,250,0.45)] bg-[#140526]">
+                <video
+                  src="/assets/session-video.mp4"
+                  controls
+                  autoPlay
+                  playsInline
+                  onLoadedMetadata={(e) => {
+                    const v = e.currentTarget;
+                    if (v.videoWidth && v.videoHeight) {
+                      setVideoAspect(v.videoWidth / v.videoHeight);
+                    }
+                  }}
+                  className="w-full h-full object-cover block"
+                />
+              </div>
             </div>
-          </div>
-        </div>
-      )}
+          </div>,
+          document.body
+        )}
     </div>
   );
 };
