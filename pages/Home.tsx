@@ -232,6 +232,7 @@ const Home: React.FC = () => {
                   controls
                   autoPlay
                   playsInline
+                  onEnded={() => setIsVideoModalOpen(false)}
                   onLoadedMetadata={(e) => {
                     const v = e.currentTarget;
                     if (v.videoWidth && v.videoHeight) {
